@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 67.5%;
+}
+
+#header {
+  font-size: 1.6rem;
+  background: url("./assets/leo-manjarrez-q2RE-l8xysk-unsplash.jpg");
+  background-size: cover;
+  height: 97vh;
+  color: white;
+}
+
+.header__container {
+  height: 100%;
+  width: 100%;
+}
+
+.header__container__rightbox {
+  position: relative;
+}
+
+.header__container__rightbox__form {
+  width: 80%;
+  height: 60%;
+  background: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 15px;
+  box-shadow: 0 0 10px black;
+  animation: leftTransition 1s ease-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes leftTransition {
+  0% {
+    transform: translate(100%, -50%);
+  }
+
+  100% {
+    transform: translate(-50%, -50%);
+  }
+}
+
+.header__container__leftbox {
+  position: relative;
+  padding-top: 20rem;
+  text-align: center;
+}
+
+#header h1 {
+  font-size: 7rem;
+
+  text-shadow: 0 0 0.7rem black;
+}
+
+#header h3 {
+  font-size: 2rem;
+
+  text-shadow: 0 0 0.7rem black;
+}

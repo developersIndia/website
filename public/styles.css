@@ -64,17 +64,16 @@ html {
   animation: leftTransition 1s ease-out;
   animation-fill-mode: forwards;
   padding: 2% 4% 0;
-  color: #3b737e;
+  color: rgb(77, 76, 76);
 }
 
 .header__container__rightbox__form h2 {
   text-align: center;
   font-weight: bold;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 .header__container__rightbox___form__input {
-  color: #674041;
   width: 100%;
   margin-bottom: 1%;
   border: none;
@@ -82,8 +81,17 @@ html {
   border-radius: 3px;
   resize: none;
   outline: none;
-  background-color: #3b737e;
+  background-color: tomato;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
   color: white;
+}
+
+.header__container__rightbox__form hr {
+  border-top: none;
+  border-bottom: 3px solid rgb(77, 76, 76);
+  width: 100px;
+  margin: auto;
+  margin-bottom: 5%;
 }
 
 .header__container__rightbox__form label {

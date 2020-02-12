@@ -22,6 +22,16 @@ html {
   width: 100%;
 }
 
+#join__button {
+  background-color: tomato;
+  padding: 1rem 2.5rem;
+  border-style: none;
+  border-radius: 10rem;
+  margin-top: 2.5rem;
+  margin-left: 10rem;
+  font-size: 2rem;
+}
+
 .header__container__rightbox {
   position: relative;
 }

@@ -6,6 +6,7 @@
 
 html {
   font-size: 67.5%;
+  overflow: hidden;
 }
 
 #header {

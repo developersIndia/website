@@ -1,40 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>DevelopersIndia</title>
 
-    <!-- stylesheets -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" type="text/css" href="./styles.css" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>DevelopersIndia</title>
 
-  <body>
-    <section id="header">
-      <div class="row header__container">
-        <div class="col col-12 col-md-8 header__container__leftbox">
-          <h1>Developers India</h1>
-          <h3>A community made by developers, for developers.</h3>
-        </div>
-        <div class="col col-12 col-md-4 header__container__rightbox">
-          <form class="header__container__rightbox__form"></form>
-        </div>
+  <!-- stylesheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <link rel="stylesheet" type="text/css" href="./styles.css" />
+</head>
+
+<body>
+  <section id="header">
+    <div class="row header__container">
+      <div class="col col-12 col-md-8 header__container__leftbox">
+        <h1>Developers India</h1>
+        <h3>A community made by developers, for developers.</h3>
       </div>
-    </section>
+      <div class="col col-12 col-md-4 header__container__rightbox">
+        <form class="header__container__rightbox__form">
+          <h2>CONTACT US</h2>
+          <hr>
+          <label for="name">Full Name</label>
+          <input id="name" type="text" class="header__container__rightbox___form__input">
 
-    <!-- scripts  -->
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
-    <script src="./script.js"></script>
-  </body>
+          <label for="email">Email Address</label>
+          <input id="email" type="email" class="header__container__rightbox___form__input">
+
+          <label for="message">MESSAGE FOR US</label>
+          <textarea id="message" class=" header__container__rightbox___form__input"></textarea>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- scripts  -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+  <script src="./script.js"></script>
+</body>
+
 </html>

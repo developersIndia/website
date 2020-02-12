@@ -6,7 +6,7 @@
 
 html {
   font-size: 67.5%;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 #header {
@@ -28,7 +28,7 @@ html {
 
 .header__container__rightbox__form {
   width: 80%;
-  height: 60%;
+  height: 300px;
   background: white;
   position: absolute;
   top: 50%;
@@ -37,6 +37,36 @@ html {
   box-shadow: 0 0 10px black;
   animation: leftTransition 1s ease-out;
   animation-fill-mode: forwards;
+  padding: 2% 4% 0;
+  color: #3b737e;
+}
+
+.header__container__rightbox__form h2 {
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.header__container__rightbox___form__input {
+  color: #674041;
+  width: 100%;
+  margin-bottom: 1%;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+  resize: none;
+  outline: none;
+  background-color: #3b737e;
+  color: white;
+}
+
+.header__container__rightbox__form label {
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 0;
+  margin-left: 0.5rem;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
 }
 
 @keyframes leftTransition {

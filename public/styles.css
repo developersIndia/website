@@ -24,12 +24,28 @@ html {
 
 #join__button {
   background-color: tomato;
+  color: white;
+  outline: none;
   padding: 1rem 2.5rem;
   border-style: none;
   border-radius: 10rem;
   margin-top: 2.5rem;
-  margin-left: 10rem;
+  width: 200px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
   font-size: 2rem;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.6);
+  transition: 0.2s;
+}
+
+#join__button:hover {
+  transform: scale(1.05);
+}
+
+#join__button:active {
+  transform: scale(1);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.6);
 }
 
 .header__container__rightbox {

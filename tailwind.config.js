@@ -1,7 +1,9 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
 const colors = require("tailwindcss/colors");
 
 module.exports = {
-  purge: [],
+  mode: "jit",
+  purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./Components/**/*.{js,ts,jsx,tsx}"],
   darkMode: false, // or 'media' or 'class'
   theme: {
     colors: {
@@ -11,8 +13,9 @@ module.exports = {
       pink: colors.fuchsia,
     },
     fontFamily: {
-      sans: ["Montserrat", "sans-serif"],
-      serif: ["Varela Round", "serif"],
+      sans: ["Montserrat", ...defaultTheme.fontFamily.sans],
+      serif: ["Montserrat", ...defaultTheme.fontFamily.serif],
+      mono: ["Montserrat", ...defaultTheme.fontFamily.mono],
     },
     extend: {
       spacing: {

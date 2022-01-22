@@ -59,5 +59,5 @@ People _love_ thorough bug reports.
 
 ## References
 
-This document was adapted from the open-source contribution guidelines for
-[developersIndia](https://github.com/developersIndia/.github/blob/main/CONTRIBUTING.md)
+This document extends the existing guidelines mentioned in 
+[developersIndia general contribution guidelines](https://github.com/developersIndia/.github/blob/main/CONTRIBUTING.md)

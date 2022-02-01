@@ -139,6 +139,7 @@ But before that, we would like you to follow some standard guidelines for develo
 - In addition to the [React.js](https://reactjs.org) framework, the project also used [TypeScript](https://www.typescriptlang.org) to ensure common JavaScript errors & bugs aren't introduced into production. So, if you need a reference to that as well, feel free to refer to the official [TypeScript docs](https://www.typescriptlang.org/docs).
 - No two developers will have common preferences & as such it raises debates & arguments on who's right more often than not! For example, some prefer single quotes `' '` over double quotes `" "`, or `Spaces` over `Tabs` & such. A source code having a mix of both can be quite detrimental to the project's development & introduce hidden errors which are hard to identify & debug. As such we've configured [ESLint](https://eslint.org) & [Prettier](https://prettier.io) to deal with such inconsistencies before production code is deployed.
 - Executing our configured linters & formatters each time after developing the project can become monotonous & boring. Hence, to automate this procedure we decided to make use of [githooks](https://git-scm.com/docs/githooks). So, each time you either commit or push changes to a remote repository, `git` will invoke ESLint & Prettier for you!
+- Since the project is version-controlled-ed using `git`, we also follow the principles of [GitHub Glow](https://docs.github.com/en/get-started/quickstart/github-flow). So, whenever you want to work a specific feature/bug, create a branch from `master`. Once work on the feature/bug branch is complete, merge it into the `master` branch before sending a PR.
 
 The aforementioned points were some things-to-be-noted before you started contributing to the project. A majority of the times you needn't worry about them since we've them configured to ensure each & every contributor to the project has an uniform development experience.
 
@@ -148,6 +149,7 @@ But there are things which we don't have control over & as such we can only reco
 2. Place proper comments wherever necessary. Some examples where you should definitely place comments are, complicated logic and/or blocks of code which requires further attention.
 3. Name variables verbosely. For example, be comprehensive like `event` instead of `e`.
 4. If you need a refresher on writing good, human-readable code, refer to the [Google Styleguide for TypeScript](https://google.github.io/styleguide/tsguide.html).
+5. Although not enforceable, we would also prefer it if you could name you `git` branches aptly. Here are some naming conventions you could use: `feature/issue-##` or `bug-fix/issue-##`. In doing so, at first glance it's more obvious than not, the said branch is related to a "_feature_" which has been detailed in "_issue-##_" where `##` is a number.
 
 So, with that concludes the section on "_How to contribute to the project?_". If you feel the section lacks something, please open an [Issue](https://github.com/developersIndia/website/issues/new/choose)/[Discussion](https://github.com/developersIndia/website/discussions) thread along with a referenced PR with the changes & updates.
 

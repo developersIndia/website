@@ -165,7 +165,56 @@ If you feel there's something missing and/or the T&Cs are too restricted (or oth
 
 ## Triaging Issue/Discussion/Pull Requests
 
+We maintain the project in this repository on a voluntary basis outside work hours. As such, we appreciate each & every helping hands our contributors provide us. One task we desparately need help with is triaging issues, discussions & PRs. And believe it or not, this is one task which is extremely appreciated by the maintainers, so if you can contribute responding and/or triaging it be a massive help for us!
+
+That said, if you would like to contribute to the project by...
+
+1. Triaging through issues & helping the maintainers identify the type of issue/PRs.
+2. Respond to contributors with their queries & discussions.
+3. Marking bad PRs as spam and/or duplicate issue threads as `duplicate`.
+
+...then this section of the document will guide you through.
+
+That said, we track:
+
+- Bugs, feature requests & such through [Issue threads](https://github.com/developersIndia/website/issues).
+- Discussions on breaking changes, enhancements & feature requests through [Discussion threads](https://github.com/developersIndia/website/discussions).
+- And source code updates and/or changes through [Pull Requests](https://github.com/developersIndia/website/pulls).
+
+Issue threads & PRs are categorized with the following labels:
+
+| Issue Labels       | Desciption                                                                   |
+| ------------------ | ---------------------------------------------------------------------------- |
+| `bug`              | Something isn't working                                                      |
+| `dependencies`     | Pull requests that update a dependency file                                  |
+| `documentation`    | Improvements or additions to documentation                                   |
+| `duplicate`        | This issue or pull request already exists                                    |
+| `enhancement`      | New feature or request                                                       |
+| `good first issue` | Good for newcomers                                                           |
+| `help wanted`      | Extra attention is needed                                                    |
+| `invalid`          | This doesn't seem right                                                      |
+| `question`         | Further information is requested                                             |
+| `wontfix`          | This will not be worked on                                                   |
+
+More such labels will be added & updated as & when required.
+
+You can triage through specific categories of issue threads or PRs if that's what you're looking for. For example, if you're a first-time contributor to the project, you could look into issue threads labeled with [`good first issue`](https://github.com/developersIndia/website/labels/good%20first%20issue) or [`help wanted`](https://github.com/developersIndia/website/labels/help%20wanted).
+
 ## Git Commit Messages Style Guide
+
+When you contributions to the project are ready & you're comfortable committing the changes, you need to pass an apt message to the `git commit` command. And this section of the document will guide you through on writing good & proper `git commit` messages.
+
+As mentioned earlier, code should be self-documenting, we believe the same principle should apply to `git commit` messages as well. While perusing through version control history, a second person should be able to quickly grasp what that specific commit contains after reading it's message.
+
+For more information on the `git commit` command, we recommend going through it's official documentations. You can find it at: [git-commit](https://git-scm.com/docs/git-commit).
+
+That said, following is an example of a good `git-commit` message;
+
+```shell
+git commit -m "Fix non-responsive navbar (fix ##)"
+```
+
+Give this write-up ["_How to Write a Git Commit Message_"](https://cbea.ms/git-commit) to understand the importance of & how-to writing good commit messages.
 
 ## References
 

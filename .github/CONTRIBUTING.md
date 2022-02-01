@@ -1,6 +1,6 @@
 # Contributing to the Community Website
 
-Each & every project we build and/or maintain has been a possibility due to the community member efforts without which the projects would've been a distant dream only! As such, while we welcome all sorts of contributions to developing our community website, we ask the contributors to abide by certain rules & guidelines. These guidelines help us ensure:
+Each & every project we build and/or maintain has been a possibility due to the community member efforts. Without which the projects would've been a distant dream only! As such, while we welcome all sorts of contributions to developing our community website, we ask the contributors to abide by certain rules & guidelines. These guidelines help us ensure:
 
 1. Development practices are uniform.
 2. Bug reports follow a standard procedure which makes it easier to debug & resolve certain issues quicker.
@@ -84,14 +84,95 @@ Both issue lists are sorted by the total number of comments. While not perfect, 
 
 #### Local development
 
-TODO: Detail a complete step-by-step procedure on setting up the project locally.
+Before you can write your first ever contribution to the project, you need to have a development environment setup locally on your machine. As such this current section will document the steps & procedure you'll need to take for setting up the development environment.
 
-<!-- ## TODO: License -->
+**Prerequisite Tools Necessary for Local Development**:
 
-<!-- By contributing, you agree that your contributions will be licensed under its -->
-<!-- MIT License. -->
+You need to have a [Node.js](https://nodejs.org) installed which should also come pre-packaged with the `npm` CLI tool. It'll help you manage & install other development & runtime dependencies required for the project.
+
+Along side Node.js, you would also need `git` which we use for version-control.
+
+Once installed you can verify if the software are working properly or not by invoking the following commands;
+
+```shell
+# Verify the Node.js version installed on your system
+node --version
+
+# Verify npm works as expected
+npm --version
+
+# Verify git exists & works as expected
+git --version
+```
+
+With the necessary prerequisite tools installed & verified, you should now fork the project. if you've never forked a GitHub project before, check the [official GitHub docs](https://docs.github.com/en/get-started/quickstart/fork-a-repo) or refer to [this YouTube video](https://youtu.be/f5grYMXbAV0).
+
+**Downloading Dependencies**:
+
+Once you've access to a fork of the project on your GitHub profile, you're free to update and/or change anything you wish to do! But if you would like to add the changes or enhancements to the original website, you need [to make a Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request). This section of the document will help you do exactly that, hence follow the steps below:
+
+- Clone your forked version of the project to your local machine by running:
+
+  ```shell
+  git clone git@github:<YOUR-USERNAME>/website
+  ```
+
+- Change working into the freshly cloned project:
+
+  ```shell
+  cd website
+  ```
+
+- Install dependencies (including the development dependencies).
+
+  ```shell
+  npm install
+  ```
+
+**Local Development & Pushing the Changes to `upstream`**:
+
+Once you've downloaded the dependencies, you're ready to make the first changes/fixes for bug reports. So, go ahead & let your imaginations go wild!
+
+But before that, we would like you to follow some standard guidelines for developing the project locally as well. And as such, the following section of the document will help you get an idea of things to keep in mind while developing the project locally;
+
+- The project uses Next.js so in case you're confused about certain things in the source code, please refer to the official [Next.js docs](https://nextjs.org/docs).
+- In addition to the [React.js](https://reactjs.org) framework, the project also used [TypeScript](https://www.typescriptlang.org) to ensure common JavaScript errors & bugs aren't introduced into production. So, if you need a reference to that as well, feel free to refer to the official [TypeScript docs](https://www.typescriptlang.org/docs).
+- No two developers will have common preferences & as such it raises debates & arguments on who's right more often than not! For example, some prefer single quotes `' '` over double quotes `" "`, or `Spaces` over `Tabs` & such. A source code having a mix of both can be quite detrimental to the project's development & introduce hidden errors which are hard to identify & debug. As such we've configured [ESLint](https://eslint.org) & [Prettier](https://prettier.io) to deal with such inconsistencies before production code is deployed.
+- Executing our configured linters & formatters each time after developing the project can become monotonous & boring. Hence, to automate this procedure we decided to make use of [githooks](https://git-scm.com/docs/githooks). So, each time you either commit or push changes to a remote repository, `git` will invoke ESLint & Prettier for you!
+
+The aforementioned points were some things-to-be-noted before you started contributing to the project. A majority of the times you needn't worry about them since we've them configured to ensure each & every contributor to the project has an uniform development experience.
+
+But there are things which we don't have control over & as such we can only recommend you follow our suggestions on these regards. If you do follow them, you can rest assured, your PR will be reviewed on a priority basis & we'll enjoy doing it as well. That said, following are some suggestions we recommend keeping in mind while writing actual code for the project:
+
+1. Remember, code is always written for another human being to be read. So, ensure the source code is [self-documenting](https://en.wikipedia.org/wiki/Self-documenting_code).
+2. Place proper comments wherever necessary. Some examples where you should definitely place comments are, complicated logic and/or blocks of code which requires further attention.
+3. Name variables verbosely. For example, be comprehensive like `event` instead of `e`.
+4. If you need a refresher on writing good, human-readable code, refer to the [Google Styleguide for TypeScript](https://google.github.io/styleguide/tsguide.html).
+
+So, with that concludes the section on "_How to contribute to the project?_". If you feel the section lacks something, please open an [Issue](https://github.com/developersIndia/website/issues/new/choose)/[Discussion](https://github.com/developersIndia/website/discussions) thread along with a referenced PR with the changes & updates.
+
+## Licensing Terms & Conditions
+
+We welcome all sorts of contributions to the project, be it triaging issues, reporting bugs & breaking changes and/or even taking up maintenance responsibilities. And all contributions to the project are performed under a voluntary basis for the developersIndia community.
+
+As such to protect the interests of the contributors of the project, we're distributing the project under the MIT License. To read & learn about the terms & conditions (T&Cs) of the license, please check the [LICENSE](../LICENSE) document.
+
+That said, all contributions to the project will be distributed under the T&Cs of the MIT License as well. We also assume, by contributing to the project, you're then accepting the T&Cs of the open-source license we distribute our project under.
+
+If you feel there's something missing and/or the T&Cs are too restricted (or otherwise) please report it to us & open a PR explaining your reasoning. We'll gladly welcome your PR as long as the changes to the T&Cs are justifiable enough.
+
+## Triaging Issue/Discussion/Pull Requests
+
+## Git Commit Messages Style Guide
 
 ## References
 
-This document extends the existing guidelines mentioned in
-[developersIndia general contribution guidelines](https://github.com/developersIndia/.github/blob/main/CONTRIBUTING.md)
+The contributing guidelines detailed in this document pertains only to this one specific project which is hosted in this repository. More specifically, all the guidelines detailed in the document are only applicable towards development and/or maintenance of the [developersIndia website](https://github.com/developersIndia/website).
+
+If you would like to read more about our community guidelines, please find them on the following resources:
+
+- [r/developersIndia | Reddit](https://www.reddit.com/r/rdevelopersIndia)
+- [developersIndia | Discord](https://discord.gg/b4YYdyYBGH)
+- [developersIndia | GitHub](https://github.com/developersIndia/.github/blob/main/CODE_OF_CONDUCT.md)
+
+_**HAPPY CONTRIBUTING!**_ 😄

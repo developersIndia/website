@@ -31,7 +31,7 @@ To enforce a civil & mature engagement among community members we drafted the [C
 
 We use GitHub issues to track public bugs, weird features, broken URLs & such. More specifically, any thing out of the ordinary which shouldn't really exist in a website is tracked on our bug tracker.
 
-You can report a bug by [opening a new issue](https://github.com/developersIndia/developersIndia.in/issues/new/choose), it's that easy! But before reporting an issue, please put in some effort & identify if similar reports have already been created by a previous individual.
+You can report a bug by [opening a new issue](https://github.com/developersIndia/website/issues/new/choose), it's that easy! But before reporting an issue, please put in some effort & identify if similar reports have already been created by a previous individual.
 
 > **Note:** If you find a **Closed** issue that seems like it is the same thing that you're experiencing, open a new issue and include a link to the original issue in the body of your new one.
 

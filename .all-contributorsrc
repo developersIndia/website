@@ -13,6 +13,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "1Gokul",
+      "name": "Gokul Viswanath",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46419552?v=4",
+      "profile": "https://gokulv.netlify.app/",
+      "contributions": [
+        "infra"
+      ]
     }
   ],
   "contributorsPerLine": 7,

@@ -92,6 +92,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://siddhantcodes.netlify.app/"><img src="https://avatars.githubusercontent.com/u/36407043?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Siddhant Kumar</b></sub></a><br /><a href="https://github.com/developersIndia/website/commits?author=siddhantk232" title="Code">💻</a></td>
+    <td align="center"><a href="https://gokulv.netlify.app/"><img src="https://avatars.githubusercontent.com/u/46419552?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Gokul Viswanath</b></sub></a><br /><a href="#infra-1Gokul" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
   </tr>
 </table>
 

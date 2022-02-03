@@ -32,6 +32,20 @@
         "code",
         "ideas"
       ]
+    },
+    {
+      "login": "Jarmos-san",
+      "name": "Somraj Saha",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31373860?v=4",
+      "profile": "https://jarmos.netlify.app/",
+      "contributions": [
+        "code",
+        "ideas",
+        "maintenance",
+        "mentoring",
+        "review",
+        "projectManagement"
+      ]
     }
   ],
   "contributorsPerLine": 7,

@@ -22,6 +22,16 @@
       "contributions": [
         "infra"
       ]
+    },
+    {
+      "login": "afkcodes",
+      "name": "Ashish Kumar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17390257?v=4",
+      "profile": "http://www.megabyt.dev",
+      "contributions": [
+        "code",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,

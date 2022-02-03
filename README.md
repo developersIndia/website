@@ -81,3 +81,23 @@ For queries & feedback, feel free to reach us out on contact.[developersindia@gm
 ## Acknowledgments
 
 The project wouldn't have seen the day of the light without the developersIndia community's efforts & contributions! But special thanks goes to [these amazing contributors](https://github.com/developersIndia/developersIndia.in/graphs/contributors) who made an extra effort to report issues and/or make PRs even though they've a busy schedule.
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://siddhantcodes.netlify.app/"><img src="https://avatars.githubusercontent.com/u/36407043?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Siddhant Kumar</b></sub></a><br /><a href="https://github.com/developersIndia/website/commits?author=siddhantk232" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!

@@ -93,6 +93,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://siddhantcodes.netlify.app/"><img src="https://avatars.githubusercontent.com/u/36407043?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Siddhant Kumar</b></sub></a><br /><a href="https://github.com/developersIndia/website/commits?author=siddhantk232" title="Code">💻</a></td>
     <td align="center"><a href="https://gokulv.netlify.app/"><img src="https://avatars.githubusercontent.com/u/46419552?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Gokul Viswanath</b></sub></a><br /><a href="#infra-1Gokul" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
+    <td align="center"><a href="http://www.megabyt.dev"><img src="https://avatars.githubusercontent.com/u/17390257?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ashish Kumar</b></sub></a><br /><a href="https://github.com/developersIndia/website/commits?author=afkcodes" title="Code">💻</a> <a href="#ideas-afkcodes" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 

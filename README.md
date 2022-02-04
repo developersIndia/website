@@ -99,6 +99,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://sushilburagute.github.io"><img src="https://avatars.githubusercontent.com/u/50674860?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sushil Buragute</b></sub></a><br /><a href="#content-sushilburagute" title="Content">🖋</a> <a href="#design-sushilburagute" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/SamrendraS"><img src="https://avatars.githubusercontent.com/u/43675000?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Samrendra Kumar Singh</b></sub></a><br /><a href="https://github.com/developersIndia/website/commits?author=SamrendraS" title="Code">💻</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://bhupesh.me"><img src="https://avatars.githubusercontent.com/u/34342551?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Bhupesh Varshney</b></sub></a><br /><a href="https://github.com/developersIndia/website/commits?author=Bhupesh-V" title="Code">💻</a> <a href="#infra-Bhupesh-V" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/developersIndia/website/commits?author=Bhupesh-V" title="Documentation">📖</a> <a href="#tool-Bhupesh-V" title="Tools">🔧</a> <a href="#ideas-Bhupesh-V" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/developersIndia/website/pulls?q=is%3Apr+reviewed-by%3ABhupesh-V" title="Reviewed Pull Requests">👀</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-restore -->

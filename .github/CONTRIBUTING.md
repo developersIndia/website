@@ -21,9 +21,9 @@ To enforce a civil & mature engagement among community members we drafted the [C
 
 > **Note:** [Please don't file an issue to ask a question.](https://blog.atom.io/2016/04/19/managing-the-deluge-of-atom-issues.html) You'll get faster results by using the resources below.
 
-- Check the [Issue](https://github.com/developersIndia/website/issues)/[Discussion](https://github.com/developersIndia/website/discussions) threads to see if your query already exists or not!
-- If it's a quick short answer which you believe one of the admin/maintainers can respond to real quick, our DMs are open to you.
-- Join our [Discord server](https://discord.gg/b4YYdyYBGH) & have a great chat there! (**Don't forget to read the rules & guidelines there as well!**)
+-   Check the [Issue](https://github.com/developersIndia/website/issues)/[Discussion](https://github.com/developersIndia/website/discussions) threads to see if your query already exists or not!
+-   If it's a quick short answer which you believe one of the admin/maintainers can respond to real quick, our DMs are open to you.
+-   Join our [Discord server](https://discord.gg/b4YYdyYBGH) & have a great chat there! (**Don't forget to read the rules & guidelines there as well!**)
 
 ## How to Contribute to the Project
 
@@ -37,21 +37,21 @@ You can report a bug by [opening a new issue](https://github.com/developersIndia
 
 ### Before Submitting a Bug Report
 
-- Check if the content is being delivered to your browser. Sometimes a quick Hard Refresh(**Shift + Ctrl + R**) might resolve the issue.
-- Determine if such a bug report has already been reported earlier or not.
-- Take a screenshot of the bug if possible & take note of the Browser details.
+-   Check if the content is being delivered to your browser. Sometimes a quick Hard Refresh(**Shift + Ctrl + R**) might resolve the issue.
+-   Determine if such a bug report has already been reported earlier or not.
+-   Take a screenshot of the bug if possible & take note of the Browser details.
 
 ### How to Submit a Good Bug Report
 
 **Great Bug Reports** tend to have:
 
-- **Use a clear & descriptive title** to identify the issue & for obvious SEO reasons.
-- **Describe the exact steps which reproduce the problem** in as many details as possible.
-- **Provide specific examples to demonstrate the steps**. Include links to files or GitHub projects, or copy/pasteable snippets, which you use in those examples. If you're providing snippets in the issue, use [Markdown code blocks](https://www.markdownguide.org/basic-syntax/#code).
-- **Describe the behaviour you observed after following the steps** and point out what exactly is the problem with that behaviour.
-- **Explain which behaviour you expected to see instead and why.**
-- **Include screenshots and animated GIFs** which show you following the described steps and clearly demonstrate the problem. If you use the keyboard while following the steps, **record the GIF with this tool**: [ShareX](https://getsharex.com/).
-- **If the problem wasn't triggered by a specific action**, describe what you were doing before the problem happened and share more information using the guidelines below.
+-   **Use a clear & descriptive title** to identify the issue & for obvious SEO reasons.
+-   **Describe the exact steps which reproduce the problem** in as many details as possible.
+-   **Provide specific examples to demonstrate the steps**. Include links to files or GitHub projects, or copy/pasteable snippets, which you use in those examples. If you're providing snippets in the issue, use [Markdown code blocks](https://www.markdownguide.org/basic-syntax/#code).
+-   **Describe the behaviour you observed after following the steps** and point out what exactly is the problem with that behaviour.
+-   **Explain which behaviour you expected to see instead and why.**
+-   **Include screenshots and animated GIFs** which show you following the described steps and clearly demonstrate the problem. If you use the keyboard while following the steps, **record the GIF with this tool**: [ShareX](https://getsharex.com/).
+-   **If the problem wasn't triggered by a specific action**, describe what you were doing before the problem happened and share more information using the guidelines below.
 
 Project maintainers & authors _love_ thorough bug reports!
 
@@ -69,16 +69,16 @@ that you imagine you would take if the feature you're requesting existed.
 
 #### Before Submitting An Enhancement Suggestion
 
-- **Discuss about it** by openning a [Discussion thread](https://github.com/developersIndia/website/discussions).
-- **Check if there's already [an open issue](https://github.com/developersIndia/website/issues) which provides that enhancement.**
-- **Perform a [cursory search](https://github.com/developersIndia/website/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement)** to see if the enhancement has already been suggested. If it has, add a comment to the existing issue instead of opening a new one.
+-   **Discuss about it** by openning a [Discussion thread](https://github.com/developersIndia/website/discussions).
+-   **Check if there's already [an open issue](https://github.com/developersIndia/website/issues) which provides that enhancement.**
+-   **Perform a [cursory search](https://github.com/developersIndia/website/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement)** to see if the enhancement has already been suggested. If it has, add a comment to the existing issue instead of opening a new one.
 
 ### Your First Code Contribution
 
 Unsure where to begin contributing to the project? You can start by looking through these `good-first-issues` and `help-wanted` issues:
 
-- [Good First Issues](https://github.com/developersIndia/website/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22) - issues which should only require a few lines of code, and a test or two.
-- [Help Wanted Issues](https://github.com/developersIndia/website/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) - issues which should be a bit more involved than `good-first-issues` issues.
+-   [Good First Issues](https://github.com/developersIndia/website/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22) - issues which should only require a few lines of code, and a test or two.
+-   [Help Wanted Issues](https://github.com/developersIndia/website/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) - issues which should be a bit more involved than `good-first-issues` issues.
 
 Both issue lists are sorted by the total number of comments. While not perfect, the number of comments is a reasonable proxy for an impact a given change will have.
 
@@ -111,23 +111,23 @@ With the necessary prerequisite tools installed & verified, you should now fork 
 
 Once you've access to a fork of the project on your GitHub profile, you're free to update and/or change anything you wish to do! But if you would like to add the changes or enhancements to the original website, you need [to make a Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request). This section of the document will help you do exactly that, hence follow the steps below:
 
-- Clone your forked version of the project to your local machine by running:
+-   Clone your forked version of the project to your local machine by running:
 
-  ```shell
-  git clone git@github:<YOUR-USERNAME>/website
-  ```
+    ```shell
+    git clone git@github:<YOUR-USERNAME>/website
+    ```
 
-- Change working into the freshly cloned project:
+-   Change working into the freshly cloned project:
 
-  ```shell
-  cd website
-  ```
+    ```shell
+    cd website
+    ```
 
-- Install dependencies (including the development dependencies).
+-   Install dependencies (including the development dependencies).
 
-  ```shell
-  npm install
-  ```
+    ```shell
+    npm install
+    ```
 
 **Local Development & Pushing the Changes to `upstream`**:
 
@@ -135,11 +135,11 @@ Once you've downloaded the dependencies, you're ready to make the first changes/
 
 But before that, we would like you to follow some standard guidelines for developing the project locally as well. And as such, the following section of the document will help you get an idea of things to keep in mind while developing the project locally;
 
-- The project uses Next.js so in case you're confused about certain things in the source code, please refer to the official [Next.js docs](https://nextjs.org/docs).
-- In addition to the [React.js](https://reactjs.org) framework, the project also used [TypeScript](https://www.typescriptlang.org) to ensure common JavaScript errors & bugs aren't introduced into production. So, if you need a reference to that as well, feel free to refer to the official [TypeScript docs](https://www.typescriptlang.org/docs).
-- No two developers will have common preferences & as such it raises debates & arguments on who's right more often than not! For example, some prefer single quotes `' '` over double quotes `" "`, or `Spaces` over `Tabs` & such. A source code having a mix of both can be quite detrimental to the project's development & introduce hidden errors which are hard to identify & debug. As such we've configured [ESLint](https://eslint.org) & [Prettier](https://prettier.io) to deal with such inconsistencies before production code is deployed.
-- Executing our configured linters & formatters each time after developing the project can become monotonous & boring. Hence, to automate this procedure we decided to make use of [githooks](https://git-scm.com/docs/githooks). So, each time you either commit or push changes to a remote repository, `git` will invoke ESLint & Prettier for you!
-- Since the project is version-controlled-ed using `git`, we also follow the principles of [GitHub Glow](https://docs.github.com/en/get-started/quickstart/github-flow). So, whenever you want to work a specific feature/bug, create a branch from `master`. Once work on the feature/bug branch is complete, merge it into the `master` branch before sending a PR.
+-   The project uses Next.js so in case you're confused about certain things in the source code, please refer to the official [Next.js docs](https://nextjs.org/docs).
+-   In addition to the [React.js](https://reactjs.org) framework, the project also used [TypeScript](https://www.typescriptlang.org) to ensure common JavaScript errors & bugs aren't introduced into production. So, if you need a reference to that as well, feel free to refer to the official [TypeScript docs](https://www.typescriptlang.org/docs).
+-   No two developers will have common preferences & as such it raises debates & arguments on who's right more often than not! For example, some prefer single quotes `' '` over double quotes `" "`, or `Spaces` over `Tabs` & such. A source code having a mix of both can be quite detrimental to the project's development & introduce hidden errors which are hard to identify & debug. As such we've configured [ESLint](https://eslint.org) & [Prettier](https://prettier.io) to deal with such inconsistencies before production code is deployed.
+-   Executing our configured linters & formatters each time after developing the project can become monotonous & boring. Hence, to automate this procedure we decided to make use of [githooks](https://git-scm.com/docs/githooks). So, each time you either commit or push changes to a remote repository, `git` will invoke ESLint & Prettier for you!
+-   Since the project is version-controlled-ed using `git`, we also follow the principles of [GitHub Glow](https://docs.github.com/en/get-started/quickstart/github-flow). So, whenever you want to work a specific feature/bug, create a branch from `master`. Once work on the feature/bug branch is complete, merge it into the `master` branch before sending a PR.
 
 The aforementioned points were some things-to-be-noted before you started contributing to the project. A majority of the times you needn't worry about them since we've them configured to ensure each & every contributor to the project has an uniform development experience.
 
@@ -177,24 +177,24 @@ That said, if you would like to contribute to the project by...
 
 That said, we track:
 
-- Bugs, feature requests & such through [Issue threads](https://github.com/developersIndia/website/issues).
-- Discussions on breaking changes, enhancements & feature requests through [Discussion threads](https://github.com/developersIndia/website/discussions).
-- And source code updates and/or changes through [Pull Requests](https://github.com/developersIndia/website/pulls).
+-   Bugs, feature requests & such through [Issue threads](https://github.com/developersIndia/website/issues).
+-   Discussions on breaking changes, enhancements & feature requests through [Discussion threads](https://github.com/developersIndia/website/discussions).
+-   And source code updates and/or changes through [Pull Requests](https://github.com/developersIndia/website/pulls).
 
 Issue threads & PRs are categorized with the following labels:
 
-| Issue Labels       | Desciption                                                                   |
-| ------------------ | ---------------------------------------------------------------------------- |
-| `bug`              | Something isn't working                                                      |
-| `dependencies`     | Pull requests that update a dependency file                                  |
-| `documentation`    | Improvements or additions to documentation                                   |
-| `duplicate`        | This issue or pull request already exists                                    |
-| `enhancement`      | New feature or request                                                       |
-| `good first issue` | Good for newcomers                                                           |
-| `help wanted`      | Extra attention is needed                                                    |
-| `invalid`          | This doesn't seem right                                                      |
-| `question`         | Further information is requested                                             |
-| `wontfix`          | This will not be worked on                                                   |
+| Issue Labels       | Desciption                                  |
+| ------------------ | ------------------------------------------- |
+| `bug`              | Something isn't working                     |
+| `dependencies`     | Pull requests that update a dependency file |
+| `documentation`    | Improvements or additions to documentation  |
+| `duplicate`        | This issue or pull request already exists   |
+| `enhancement`      | New feature or request                      |
+| `good first issue` | Good for newcomers                          |
+| `help wanted`      | Extra attention is needed                   |
+| `invalid`          | This doesn't seem right                     |
+| `question`         | Further information is requested            |
+| `wontfix`          | This will not be worked on                  |
 
 More such labels will be added & updated as & when required.
 
@@ -222,8 +222,8 @@ The contributing guidelines detailed in this document pertains only to this one 
 
 If you would like to read more about our community guidelines, please find them on the following resources:
 
-- [r/developersIndia | Reddit](https://www.reddit.com/r/rdevelopersIndia)
-- [developersIndia | Discord](https://discord.gg/b4YYdyYBGH)
-- [developersIndia | GitHub](https://github.com/developersIndia/.github/blob/main/CODE_OF_CONDUCT.md)
+-   [r/developersIndia | Reddit](https://www.reddit.com/r/rdevelopersIndia)
+-   [developersIndia | Discord](https://discord.gg/b4YYdyYBGH)
+-   [developersIndia | GitHub](https://github.com/developersIndia/.github/blob/main/CODE_OF_CONDUCT.md)
 
 _**HAPPY CONTRIBUTING!**_ 😄

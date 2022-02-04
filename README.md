@@ -15,9 +15,9 @@ The developersIndia community have grown exponentially & to commemorate such ach
 <!--
 Add more entries of the tech stack as the project grows & developers over time -->
 
-* [Next.js](https://nextjs.org/)
-* [TypeScript](https://www.typescriptlang.org)
-* [Vercel](https://vercel.com)
+-   [Next.js](https://nextjs.org/)
+-   [TypeScript](https://www.typescriptlang.org)
+-   [Vercel](https://vercel.com)
 
 ## Getting Started
 
@@ -76,6 +76,7 @@ Distributed under the MIT License. See [`LICENSE`](./LICENSE) for more informati
 ## Contact Us
 
 <!-- Add Twitter and/or the LinkedIn page when they're prepared -->
+
 For queries & feedback, feel free to reach us out on contact.[developersindia@gmail.com](mailto:developersindia@gmail.com)
 
 ## Acknowledgments

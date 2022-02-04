@@ -75,6 +75,20 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "Bhupesh-V",
+      "name": "Bhupesh Varshney",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34342551?v=4",
+      "profile": "https://bhupesh.me",
+      "contributions": [
+        "code",
+        "infra",
+        "doc",
+        "tool",
+        "ideas",
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,

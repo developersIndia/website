@@ -1,3 +1,5 @@
+//  ESLint config this file is based on google style guide along with prettier
+
 module.exports = {
     env: {
         browser: true,

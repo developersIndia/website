@@ -6,11 +6,6 @@
         "dev": "next dev",
         "build": "next build",
         "start": "next start",
-        "check-types": "tsc --pretty --noEmit",
-        "check-format": "prettier --check .",
-        "check-lint": "eslint . --ext ts --ext tsx --ext js",
-        "format": "prettier --write .",
-        "test-all": "npm run check-format && npm run check-lint && npm run check-types && npm run build",
         "prepare": "husky install"
     },
     "dependencies": {
@@ -19,15 +14,7 @@
         "react-dom": "17.0.2"
     },
     "devDependencies": {
-        "@types/node": "^17.0.14",
         "@types/react": "^17.0.39",
-        "@typescript-eslint/eslint-plugin": "^5.10.2",
-        "@typescript-eslint/parser": "^5.10.2",
-        "eslint": "^8.8.0",
-        "eslint-config-google": "^0.14.0",
-        "eslint-config-prettier": "^8.3.0",
-        "eslint-plugin-react": "^7.28.0",
-        "prettier": "2.5.1",
         "typescript": "^4.5.5",
         "husky": "^7.0.0"
     }

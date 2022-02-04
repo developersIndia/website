@@ -66,6 +66,15 @@
         "content",
         "design"
       ]
+    },
+    {
+      "login": "SamrendraS",
+      "name": "Samrendra Kumar Singh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43675000?v=4",
+      "profile": "https://github.com/SamrendraS",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

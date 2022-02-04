@@ -56,6 +56,16 @@
         "content",
         "design"
       ]
+    },
+    {
+      "login": "sushilburagute",
+      "name": "Sushil Buragute",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50674860?v=4",
+      "profile": "https://sushilburagute.github.io",
+      "contributions": [
+        "content",
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,

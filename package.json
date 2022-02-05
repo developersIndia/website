@@ -13,8 +13,12 @@
     }
   },
   "lint-staged": {
-    "src/**/*.{ts,css,html}": [
-      "next lint"
+    "src/**/*.{tsx,ts}": [
+      "next lint",
+      "prettier --write"
+    ],
+    "**/*.{json,md,yml,yaml}": [
+      "prettier --write"
     ]
   },
   "dependencies": {

@@ -89,6 +89,20 @@
         "ideas",
         "review"
       ]
+    },
+    {
+      "login": "varshney-himanshu",
+      "name": "Himanshu Varshney",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45286342?v=4",
+      "profile": "http://himanshuvarshney.now.sh",
+      "contributions": [
+        "code",
+        "infra",
+        "doc",
+        "tool",
+        "ideas",
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,

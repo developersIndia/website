@@ -1,0 +1,114 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "siddhantk232",
+      "name": "Siddhant Kumar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36407043?v=4",
+      "profile": "https://siddhantcodes.netlify.app/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "1Gokul",
+      "name": "Gokul Viswanath",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46419552?v=4",
+      "profile": "https://gokulv.netlify.app/",
+      "contributions": [
+        "infra"
+      ]
+    },
+    {
+      "login": "afkcodes",
+      "name": "Ashish Kumar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17390257?v=4",
+      "profile": "http://www.megabyt.dev",
+      "contributions": [
+        "code",
+        "ideas"
+      ]
+    },
+    {
+      "login": "Jarmos-san",
+      "name": "Somraj Saha",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31373860?v=4",
+      "profile": "https://jarmos.netlify.app/",
+      "contributions": [
+        "code",
+        "ideas",
+        "maintenance",
+        "mentoring",
+        "review",
+        "projectManagement"
+      ]
+    },
+    {
+      "login": "OmkarK45",
+      "name": "Omkar Kulkarni",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45557594?v=4",
+      "profile": "http://omkarkulkarni.vercel.app",
+      "contributions": [
+        "content",
+        "design"
+      ]
+    },
+    {
+      "login": "sushilburagute",
+      "name": "Sushil Buragute",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50674860?v=4",
+      "profile": "https://sushilburagute.github.io",
+      "contributions": [
+        "content",
+        "design"
+      ]
+    },
+    {
+      "login": "SamrendraS",
+      "name": "Samrendra Kumar Singh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43675000?v=4",
+      "profile": "https://github.com/SamrendraS",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Bhupesh-V",
+      "name": "Bhupesh Varshney",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34342551?v=4",
+      "profile": "https://bhupesh.me",
+      "contributions": [
+        "code",
+        "infra",
+        "doc",
+        "tool",
+        "ideas",
+        "review"
+      ]
+    },
+    {
+      "login": "varshney-himanshu",
+      "name": "Himanshu Varshney",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45286342?v=4",
+      "profile": "http://himanshuvarshney.now.sh",
+      "contributions": [
+        "code",
+        "infra",
+        "doc",
+        "tool",
+        "ideas",
+        "review"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "website",
+  "projectOwner": "developersIndia",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}

@@ -81,3 +81,33 @@ For queries & feedback, feel free to reach us out on contact.[developersindia@gm
 ## Acknowledgments
 
 The project wouldn't have seen the day of the light without the developersIndia community's efforts & contributions! But special thanks goes to [these amazing contributors](https://github.com/developersIndia/developersIndia.in/graphs/contributors) who made an extra effort to report issues and/or make PRs even though they've a busy schedule.
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://siddhantcodes.netlify.app/"><img src="https://avatars.githubusercontent.com/u/36407043?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Siddhant Kumar</b></sub></a><br /><a href="https://github.com/developersIndia/website/commits?author=siddhantk232" title="Code">💻</a></td>
+    <td align="center"><a href="https://gokulv.netlify.app/"><img src="https://avatars.githubusercontent.com/u/46419552?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Gokul Viswanath</b></sub></a><br /><a href="#infra-1Gokul" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
+    <td align="center"><a href="http://www.megabyt.dev"><img src="https://avatars.githubusercontent.com/u/17390257?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ashish Kumar</b></sub></a><br /><a href="https://github.com/developersIndia/website/commits?author=afkcodes" title="Code">💻</a> <a href="#ideas-afkcodes" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://jarmos.netlify.app/"><img src="https://avatars.githubusercontent.com/u/31373860?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Somraj Saha</b></sub></a><br /><a href="https://github.com/developersIndia/website/commits?author=Jarmos-san" title="Code">💻</a> <a href="#ideas-Jarmos-san" title="Ideas, Planning, & Feedback">🤔</a> <a href="#maintenance-Jarmos-san" title="Maintenance">🚧</a> <a href="#mentoring-Jarmos-san" title="Mentoring">🧑‍🏫</a> <a href="https://github.com/developersIndia/website/pulls?q=is%3Apr+reviewed-by%3AJarmos-san" title="Reviewed Pull Requests">👀</a> <a href="#projectManagement-Jarmos-san" title="Project Management">📆</a></td>
+    <td align="center"><a href="http://omkarkulkarni.vercel.app"><img src="https://avatars.githubusercontent.com/u/45557594?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Omkar Kulkarni</b></sub></a><br /><a href="#content-OmkarK45" title="Content">🖋</a> <a href="#design-OmkarK45" title="Design">🎨</a></td>
+    <td align="center"><a href="https://sushilburagute.github.io"><img src="https://avatars.githubusercontent.com/u/50674860?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sushil Buragute</b></sub></a><br /><a href="#content-sushilburagute" title="Content">🖋</a> <a href="#design-sushilburagute" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/SamrendraS"><img src="https://avatars.githubusercontent.com/u/43675000?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Samrendra Kumar Singh</b></sub></a><br /><a href="https://github.com/developersIndia/website/commits?author=SamrendraS" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://bhupesh.me"><img src="https://avatars.githubusercontent.com/u/34342551?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Bhupesh Varshney</b></sub></a><br /><a href="https://github.com/developersIndia/website/commits?author=Bhupesh-V" title="Code">💻</a> <a href="#infra-Bhupesh-V" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/developersIndia/website/commits?author=Bhupesh-V" title="Documentation">📖</a> <a href="#tool-Bhupesh-V" title="Tools">🔧</a> <a href="#ideas-Bhupesh-V" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/developersIndia/website/pulls?q=is%3Apr+reviewed-by%3ABhupesh-V" title="Reviewed Pull Requests">👀</a></td>
+    <td align="center"><a href="http://himanshuvarshney.now.sh"><img src="https://avatars.githubusercontent.com/u/45286342?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Himanshu Varshney</b></sub></a><br /><a href="https://github.com/developersIndia/website/commits?author=varshney-himanshu" title="Code">💻</a> <a href="#infra-varshney-himanshu" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/developersIndia/website/commits?author=varshney-himanshu" title="Documentation">📖</a> <a href="#tool-varshney-himanshu" title="Tools">🔧</a> <a href="#ideas-varshney-himanshu" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/developersIndia/website/pulls?q=is%3Apr+reviewed-by%3Avarshney-himanshu" title="Reviewed Pull Requests">👀</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!

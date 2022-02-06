@@ -1,5 +1,5 @@
 {
-  "name": "developersindia.in",
+  "name": "website",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,20 @@
     "lint": "next lint",
     "format": "prettier --check src/**/*.{tsx,ts}"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.{tsx,ts}": [
+      "next lint",
+      "prettier --write"
+    ],
+    "**/*.{json,md,yml,yaml}": [
+      "prettier --write"
+    ]
+  },
   "dependencies": {
     "next": "12.0.10",
     "react": "17.0.2",
@@ -17,6 +31,11 @@
   "devDependencies": {
     "@types/node": "^17.0.15",
     "@types/react": "^17.0.39",
+    "eslint": "^8.8.0",
+    "eslint-config-next": "^12.0.2",
+    "prettier": "^2.4.1",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.3",
     "typescript": "^4.5.5"
   }
 }

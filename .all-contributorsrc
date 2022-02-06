@@ -103,6 +103,15 @@
         "ideas",
         "review"
       ]
+    },
+    {
+      "login": "tarunkishore2303",
+      "name": "Tarun Kishore",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53224551?v=4",
+      "profile": "https://github.com/tarunkishore2303",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

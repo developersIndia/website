@@ -39,7 +39,7 @@ jobs:
           cache: "npm"
           
       - name: Install dependencies for Next.js Build
-        run: npm install --only=production
+        run: npm install
         
       - name: Run Next.js build to generate the static files
         run: npm run build

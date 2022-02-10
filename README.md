@@ -1,8 +1,12 @@
-<!-- Add some shields here for aesthetic reasons only -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+[![CI/CD Pipeline](https://github.com/developersIndia/website/actions/workflows/main.yml/badge.svg)](https://github.com/developersIndia/website/actions/workflows/main.yml) ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/developersIndia/website?color=%237f7f7f&label=Commit%20Activity&logo=GitHub) ![GitHub](https://img.shields.io/github/license/developersIndia/website?color=%23848484&label=License&logo=GitHub) ![Discord](https://img.shields.io/discord/669880381649977354?color=%237289da&label=Discord&logo=Discord) ![Subreddit subscribers](https://img.shields.io/reddit/subreddit-subscribers/developersIndia?style=social)
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
 
 <!-- Add project logo which should be centered well -->
 
-# About The Project
+# ❓ About The Project
 
 <!--
 Add a screencast (preferably in GIF format) to showcase the webpage & for obvious SEO reasons
@@ -10,7 +14,7 @@ Add a screencast (preferably in GIF format) to showcase the webpage & for obviou
 
 The developersIndia community have grown exponentially & to commemorate such achievement as well as to make our existence shown on the Internet we need a website! This repository will develop, track & maintain the said webpage.
 
-## Built With
+## ⚙️ Built With
 
 <!--
 Add more entries of the tech stack as the project grows & developers over time -->
@@ -18,14 +22,15 @@ Add more entries of the tech stack as the project grows & developers over time -
 * [Next.js](https://nextjs.org/)
 * [TypeScript](https://www.typescriptlang.org)
 * [Vercel](https://vercel.com)
+* [TailwindCSS](https://tailwindcss.com)
 
-## Getting Started
+## 🏃 Getting Started
 
 If you would like to contribute/develop our webpage, the following section and instructions will help you get started right away!
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+### 📖 Prerequisites
 
 Ensure you've a [Node.js](https://nodejs.org) runtime installed locally. It should also include a pre-packaged `npm` which can be install & setup a development environment for the project.
 
@@ -33,7 +38,7 @@ You would need to fork the project so that you can maintain you "private" copy o
 
 Once you've setup the prerequisites, proceed ahead with the installation procedures.
 
-### Installation
+### 🧰 Installation
 
 1. Clone the forked repo.
 
@@ -56,7 +61,7 @@ Once you've setup the prerequisites, proceed ahead with the installation procedu
 
 <!-- Insert a "roadmap" section over here once it's developed -->
 
-## Contributing Guidelines
+## 🚧 Contributing Guidelines
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. As such ny contributions you make are to the community-maintained developersIndia projects will be **greatly appreciated**.
 
@@ -69,20 +74,20 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## Licensing Terms & Conditions
+## 📄 Licensing Terms & Conditions
 
 Distributed under the MIT License. See [`LICENSE`](./LICENSE) for more information.
 
-## Contact Us
+## ☎️ Contact Us
 
 <!-- Add Twitter and/or the LinkedIn page when they're prepared -->
 For queries & feedback, feel free to reach us out on contact.[developersindia@gmail.com](mailto:developersindia@gmail.com)
 
-## Acknowledgments
+## ✨ Acknowledgments
 
 The project wouldn't have seen the day of the light without the developersIndia community's efforts & contributions! But special thanks goes to [these amazing contributors](https://github.com/developersIndia/developersIndia.in/graphs/contributors) who made an extra effort to report issues and/or make PRs even though they've a busy schedule.
 
-## Contributors ✨
+## 🫂 Contributors
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 

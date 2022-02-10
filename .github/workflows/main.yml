@@ -1,0 +1,29 @@
+name: CI/CD Pipeline
+
+on: [push, pull_request]
+
+jobs:
+  runPrettier:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: "14"
+          cache: "npm"
+
+      - name: Install Prettier & ESLint
+        run: npm install prettier eslint
+
+      - name: Format code using Prettier
+        run: npm run format
+
+      - name: Lint source code
+        run: npm run lint
+
+  # TODO: Run test suite
+  # TODO: Deployment job
+  # TODO: Health check job

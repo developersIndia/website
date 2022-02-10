@@ -121,6 +121,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "PushpenderSaini0",
+      "name": "Pushpender Saini",
+      "avatar_url": "https://avatars.githubusercontent.com/u/54404738?v=4",
+      "profile": "https://pushpendersaini.com",
+      "contributions": [
+        "code",
+        "tool"
+      ]
     }
   ],
   "contributorsPerLine": 7,

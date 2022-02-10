@@ -3,7 +3,7 @@ name: CI/CD Pipeline
 on: [push, pull_request]
 
 jobs:
-  runPrettier:
+  runCodeQualityChecks:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -25,5 +25,24 @@ jobs:
         run: npm run lint
 
   # TODO: Run test suite
+
+  runNextBuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: "14"
+          cache: "npm"
+          
+      - name: Install dependencies for Next.js Build
+        run: npm install --only=production
+        
+      - name: Run Next.js build to generate the static files
+        run: npm run build
+
   # TODO: Deployment job
   # TODO: Health check job

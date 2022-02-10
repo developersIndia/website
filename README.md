@@ -81,7 +81,7 @@ Distributed under the MIT License. See [`LICENSE`](./LICENSE) for more informati
 ## ☎️ Contact Us
 
 <!-- Add Twitter and/or the LinkedIn page when they're prepared -->
-For queries & feedback, feel free to reach us out on contact.[developersindia@gmail.com](mailto:developersindia@gmail.com)
+For queries & feedback, feel free to reach us out on [contact.developersindia@gmail.com](mailto:contact.developersindia@gmail.com)
 
 ## ✨ Acknowledgments
 

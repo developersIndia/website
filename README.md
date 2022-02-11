@@ -74,6 +74,8 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
+For further instructions, do check out the detailed ["contributing guidelines](./.github/CONTRIBUTING.md)
+
 ## 📄 Licensing Terms & Conditions
 
 Distributed under the MIT License. See [`LICENSE`](./LICENSE) for more information.

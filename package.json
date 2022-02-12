@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "prettier --check src/**/*.{tsx,ts}"
+    "format": "prettier . --write"
   },
   "husky": {
     "hooks": {
@@ -17,10 +17,10 @@
   "lint-staged": {
     "src/**/*.{tsx,ts}": [
       "next lint",
-      "prettier --write"
+      "prettier . --write"
     ],
     "**/*.{json,md,yml,yaml}": [
-      "prettier --write"
+      "prettier . --write"
     ]
   },
   "dependencies": {

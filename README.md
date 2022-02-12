@@ -19,10 +19,10 @@ The developersIndia community have grown exponentially & to commemorate such ach
 <!--
 Add more entries of the tech stack as the project grows & developers over time -->
 
-* [Next.js](https://nextjs.org/)
-* [TypeScript](https://www.typescriptlang.org)
-* [Vercel](https://vercel.com)
-* [TailwindCSS](https://tailwindcss.com)
+- [Next.js](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org)
+- [Vercel](https://vercel.com)
+- [TailwindCSS](https://tailwindcss.com)
 
 ## 🏃 Getting Started
 
@@ -42,22 +42,22 @@ Once you've setup the prerequisites, proceed ahead with the installation procedu
 
 1. Clone the forked repo.
 
-    ```sh
-    # Replace the <YOUR-USERNAME> portion with your GitHub username
-    git clone git@github.com/<YOUR-USERNAME>/developersindia.in.git
-    ```
+   ```sh
+   # Replace the <YOUR-USERNAME> portion with your GitHub username
+   git clone git@github.com/<YOUR-USERNAME>/developersindia.in.git
+   ```
 
 2. Change into the freshly cloned local repository
 
-    ```sh
-    cd developersindia.in
-    ```
+   ```sh
+   cd developersindia.in
+   ```
 
 3. Install dependencies
 
-    ```sh
-    npm install
-    ```
+   ```sh
+   npm install
+   ```
 
 <!-- Insert a "roadmap" section over here once it's developed -->
 
@@ -83,6 +83,7 @@ Distributed under the MIT License. See [`LICENSE`](./LICENSE) for more informati
 ## ☎️ Contact Us
 
 <!-- Add Twitter and/or the LinkedIn page when they're prepared -->
+
 For queries & feedback, feel free to reach us out on [contact.developersindia@gmail.com](mailto:contact.developersindia@gmail.com)
 
 ## ✨ Acknowledgments

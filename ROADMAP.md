@@ -43,8 +43,12 @@ We use [GitHub milestones](https://github.com/developersIndia/website/milestones
 
 Incoming issues/discussions/etc. are triaged every now & then, labelled appropriately, and assigned to a milestone in priority order:
 
-TODO: Add a list of milestones after they've been created
+As briefly discussed above, we utilize GitHub Milestones to keep track of the progress report from a broader point-of-view. As such, depending on the context each issue thread that you create will probably be assigned to one of the milestones mentioned above. And following is a detailed workflow of how we decide which issue thread will be categorized under which milestone;
 
-TODO: Add a "backlog" milestone for subsequent triage, prioritization & scheduling.
+* Issues tagged under the "Current" milestone are tasks which have been approved & has to be actively worked on. For more context, let's assume a new logo has been approved to be used for the website. Hence, issue threads which explains how that specific can be added to the website will be assigned under the Current milestone.
+
+* Issue categorized under the "Next" milestone are tasks which has been approved by the admins. And they've received positive feedback from the community as well. These tasks while are important to the progress of the project doesn't hamper the end goal if delayed. Examples of such tasks are "[dockerizing the project](https://github.com/developersIndia/website/discussions/61)".
+
+* Issues categorized under the "Future" milestone are tasks which aren't an immediate priority right now. These tasks and/or ideas aren't important at all but are nice-to-have enhancements. These ideas also mean, they still require extensive community feedback & the implementation detail must be polished.
 
 Please take note, **feature Priorities will be influenced by community feedbacks**.

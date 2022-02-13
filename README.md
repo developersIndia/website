@@ -59,7 +59,7 @@ Once you've setup the prerequisites, proceed ahead with the installation procedu
    npm install
    ```
 
-4. Run development
+4. Run the development server
 
    ```sh
    npm run dev

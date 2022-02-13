@@ -44,13 +44,13 @@ Once you've setup the prerequisites, proceed ahead with the installation procedu
 
    ```sh
    # Replace the <YOUR-USERNAME> portion with your GitHub username
-   git clone git@github.com/<YOUR-USERNAME>/developersindia.in.git
+   git clone git@github.com/<YOUR-USERNAME>/website.git
    ```
 
 2. Change into the freshly cloned local repository
 
    ```sh
-   cd developersindia.in
+   cd website
    ```
 
 3. Install dependencies
@@ -59,6 +59,11 @@ Once you've setup the prerequisites, proceed ahead with the installation procedu
    npm install
    ```
 
+4. Run the development server
+
+   ```sh
+   npm run dev
+   ```
 <!-- Insert a "roadmap" section over here once it's developed -->
 
 ## 🚧 Contributing Guidelines
@@ -74,7 +79,7 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-For further instructions, do check out the detailed ["contributing guidelines](./.github/CONTRIBUTING.md)
+For further instructions, do check out the detailed [contributing guidelines](./.github/CONTRIBUTING.md)
 
 ## 📄 Licensing Terms & Conditions
 
@@ -85,6 +90,8 @@ Distributed under the MIT License. See [`LICENSE`](./LICENSE) for more informati
 <!-- Add Twitter and/or the LinkedIn page when they're prepared -->
 
 For queries & feedback, feel free to reach us out on [contact.developersindia@gmail.com](mailto:contact.developersindia@gmail.com)
+
+Chat with us on [Discord](https://discord.gg/RjEZk8XSKd)
 
 ## ✨ Acknowledgments
 

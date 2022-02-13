@@ -200,6 +200,15 @@ More such labels will be added & updated as & when required.
 
 You can triage through specific categories of issue threads or PRs if that's what you're looking for. For example, if you're a first-time contributor to the project, you could look into issue threads labeled with [`good first issue`](https://github.com/developersIndia/website/labels/good%20first%20issue) or [`help wanted`](https://github.com/developersIndia/website/labels/help%20wanted).
 
+**NOTE**: If you notice we missed adding someone (which could include you as well) to [the list of contributors](https://github.com/developersIndia/website#-contributors), please add a comment on the lines of;
+
+```
+<!-- remove the square brackets and choose appropriate words -->
+@all-contributors please add @user for [code, design, bug, infra, doc, tool, ideas]
+```
+
+Additionally, please take a look the [All Contributors docs](https://allcontributors.org/docs/en/overview) for further information on how to use it.
+
 ## Git Commit Messages Style Guide
 
 When you contributions to the project are ready & you're comfortable committing the changes, you need to pass an apt message to the `git commit` command. And this section of the document will guide you through on writing good & proper `git commit` messages.

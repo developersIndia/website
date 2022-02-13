@@ -35,9 +35,9 @@ We use [GitHub milestones](https://github.com/developersIndia/website/milestones
 
 | Milestones | Description                                                                                                                                                                                                                               |
 |------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Current    | This milestone tracks individual tasks which has been accepted by the community & has to be worked on immediately.                                                                                                                        |
-| Next       | Milestone for tracking tasks which are yet to be approved by the admin & are still receiving community feedback. Tasks which are added to this milestone requires further discussion, polishing & enhancement from the community members. |
-| Future     | Milestone for tracking tasks which are approved by the admin team & the community but the implementation details is still under review & discussion.                                                                                      |
+| [Current](https://github.com/developersIndia/website/milestone/1)    | This milestone tracks individual tasks which has been accepted by the community & has to be worked on immediately.                                                                                                                        |
+| [Next](https://github.com/developersIndia/website/milestone/2)       | Milestone for tracking tasks which are yet to be approved by the admin & are still receiving community feedback. Tasks which are added to this milestone requires further discussion, polishing & enhancement from the community members. |
+| [Future](https://github.com/developersIndia/website/milestone/3)     | Milestone for tracking tasks which are approved by the admin team & the community but the implementation details is still under review & discussion.                                                                                      |
 
 ## Issue Triage & Prioritization
 

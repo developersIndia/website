@@ -202,7 +202,7 @@ You can triage through specific categories of issue threads or PRs if that's wha
 
 **NOTE**: If you notice we missed adding someone (which could include you as well) to [the list of contributors](https://github.com/developersIndia/website#-contributors), please add a comment on the lines of;
 
-```
+```text
 <!-- remove the square brackets and choose appropriate words -->
 @all-contributors please add @user for [code, design, bug, infra, doc, tool, ideas]
 ```

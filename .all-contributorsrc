@@ -144,6 +144,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "gogeta95",
+      "name": "Saurabh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8329096?v=4",
+      "profile": "https://github.com/gogeta95",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,

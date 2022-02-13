@@ -114,6 +114,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://tailwind-nextjs-portfolio.vercel.app/"><img src="https://avatars.githubusercontent.com/u/18483618?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Manav-SM</b></sub></a><br /><a href="https://github.com/developersIndia/website/commits?author=Manav-SM" title="Code">💻</a></td>
     <td align="center"><a href="https://pushpendersaini.com"><img src="https://avatars.githubusercontent.com/u/54404738?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Pushpender Saini</b></sub></a><br /><a href="https://github.com/developersIndia/website/commits?author=PushpenderSaini0" title="Code">💻</a> <a href="#tool-PushpenderSaini0" title="Tools">🔧</a> <a href="https://github.com/developersIndia/website/pulls?q=is%3Apr+reviewed-by%3APushpenderSaini0" title="Reviewed Pull Requests">👀</a></td>
     <td align="center"><a href="https://github.com/vigneshwar221B"><img src="https://avatars.githubusercontent.com/u/40354785?v=4?s=100" width="100px;" alt=""/><br /><sub><b>vigneshwar</b></sub></a><br /><a href="https://github.com/developersIndia/website/commits?author=vigneshwar221B" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/gogeta95"><img src="https://avatars.githubusercontent.com/u/8329096?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Saurabh</b></sub></a><br /><a href="https://github.com/developersIndia/website/commits?author=gogeta95" title="Documentation">📖</a></td>
   </tr>
 </table>
 

@@ -33,12 +33,11 @@ The project is developed by the community & distributed on the Internet as descr
 
 We use [GitHub milestones](https://github.com/developersIndia/website/milestones) to broadly organize what we intend to work on. Dates are only used for sequencing and do not represent a commitment.
 
-| Milestone | Description |
-|    ---    |     ---     |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
+| Milestones | Description                                                                                                                                                                                                                               |
+|------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Current    | This milestone tracks individual tasks which has been accepted by the community & has to be worked on immediately.                                                                                                                        |
+| Next       | Milestone for tracking tasks which are yet to be approved by the admin & are still receiving community feedback. Tasks which are added to this milestone requires further discussion, polishing & enhancement from the community members. |
+| Future     | Milestone for tracking tasks which are approved by the admin team & the community but the implementation details is still under review & discussion.                                                                                      |
 
 ## Issue Triage & Prioritization
 

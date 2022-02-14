@@ -24,7 +24,7 @@ The project is developed by the community & distributed on the Internet as descr
 
 #### Release
 
-* TODO: Insert domain over here when available
+* Keep the official website available at: [devsindia.in](https://devsindia.in) updated when necessary
 * Release Notes & Announcement of events when published
 * Community Engagement
 * Future Milestone Planning

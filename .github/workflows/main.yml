@@ -38,10 +38,10 @@ jobs:
           node-version: "16"
           cache: "npm"
           
-      - name: Install dependencies for Next.js Build
+      - name: 🧰 Install dependencies for Next.js Build
         run: npm install
         
-      - name: Run Next.js build to generate the static files
+      - name: 📦 Run Next.js build to generate the static files
         run: npm run build
 
 
@@ -52,6 +52,8 @@ jobs:
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+        with:
+          args: deploy
         # timeout-minutes: 1
 
   # TODO: Health check job

@@ -13,7 +13,7 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: "16"
-          cache: "npm"
+          # cache: "npm"
 
       - name: Install Prettier & ESLint
         run: npm install prettier eslint
@@ -36,23 +36,41 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: "16"
-          cache: "npm"
+          # cache: "npm"
           
       - name: 🧰 Install dependencies for Next.js Build
         run: npm install
         
       - name: 📦 Run Next.js build to generate the static files
         run: npm run build
+  
+  deploy:
+    runs-on: ubuntu-latest
+    needs: runNextBuild
+    steps:
+      # - name: Install Netlify CLI
+      #   run: npm install netlify-cli --save-dev
 
-      # Deploy to Netlify
-      - name: 🚀 Deploy to Netlify
-        id: deploy-netlify
-        uses: netlify/actions/cli@master
+      
+      # - name: Build Project
+      #   run: npm netlify build
+
+      # - name: Deploy
+      #   run: netlify deploy
+      - name: Build Project
+        uses: netlify/actions/build@master
         env:
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+
+
+      - name: Deploy
+        uses: netlify/actions/cli@master
         with:
-          args: deploy --build
-        # timeout-minutes: 1
+          args: deploy --dir=.next --functions=functions
+        env:
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
 
   # TODO: Health check job

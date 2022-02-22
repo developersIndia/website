@@ -12,7 +12,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: "14"
+          node-version: "16"
           cache: "npm"
 
       - name: Install Prettier & ESLint
@@ -35,7 +35,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: "14"
+          node-version: "16"
           cache: "npm"
           
       - name: Install dependencies for Next.js Build
@@ -44,20 +44,19 @@ jobs:
       - name: Run Next.js build to generate the static files
         run: npm run build
 
-      # Deploy to Netlify using our dev secrets
+  # Deploy to Netlify
+  deploy:
+    needs: runNextBuild
+    runs-on: ubuntu-latest
+    steps:
       - name: Deploy to netlify
-        uses: nwtgck/actions-netlify@v1.2
-        with:
-          publish-dir: './dist'
-          production-branch: master
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          deploy-message: "Deploy from GitHub Actions"
-          enable-pull-request-comment: false
-          enable-commit-comment: true
-          overwrites-pull-request-comment: true
+        uses: netlify/actions/cli@master
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-        timeout-minutes: 1
+        with:
+          args: deploy --dir=.next --prod
+          secrets: '["NETLIFY_AUTH_TOKEN", "NETLIFY_SITE_ID"]'
+        # timeout-minutes: 1
 
   # TODO: Health check job

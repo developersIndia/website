@@ -44,8 +44,7 @@ jobs:
       - name: 📦 Run Next.js build to generate the static files
         run: npm run build
 
-
-      # Deploy to Netlify with a personalized message
+      # Deploy to Netlify
       - name: 🚀 Deploy to Netlify
         id: deploy-netlify
         uses: netlify/actions/cli@master
@@ -53,7 +52,7 @@ jobs:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
         with:
-          args: deploy
+          args: deploy --build
         # timeout-minutes: 1
 
   # TODO: Health check job

@@ -6,6 +6,15 @@
   "commit": false,
   "contributors": [
     {
+      "login": "SFM61319",
+      "name": "Avinash Maddikonda",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45308169",
+      "profile": "https://github.com/SFM61319",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
       "login": "siddhantk232",
       "name": "Siddhant Kumar",
       "avatar_url": "https://avatars.githubusercontent.com/u/36407043?v=4",

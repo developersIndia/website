@@ -41,10 +41,18 @@ Once you've setup the prerequisites, proceed ahead with the installation procedu
 ### 🧰 Installation
 
 1. Clone the forked repo.
+   If you want to clone using [SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh), run:
 
    ```sh
    # Replace the <YOUR-USERNAME> portion with your GitHub username
    git clone git@github.com/<YOUR-USERNAME>/website.git
+   ```
+
+   Or, if you want to clone using HTTPS, run:
+
+   ```sh
+   # Replace the <YOUR-USERNAME> portion with your GitHub username
+   git clone https://github.com/<YOUR-USERNAME>/website.git
    ```
 
 2. Change into the freshly cloned local repository
@@ -64,7 +72,8 @@ Once you've setup the prerequisites, proceed ahead with the installation procedu
    ```sh
    npm run dev
    ```
-<!-- Insert a "roadmap" section over here once it's developed -->
+
+   <!-- Insert a "roadmap" section over here once it's developed -->
 
 ## 🚧 Contributing Guidelines
 

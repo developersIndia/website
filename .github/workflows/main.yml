@@ -55,11 +55,7 @@ jobs:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
         with:
-<<<<<<< HEAD
           args: deploy --dir=../../.next --prod
-=======
-          args: deploy --dir=.next --prod
->>>>>>> cb4e267748eb8d8c0a2c5543d28919b9b0c3fff4
           secrets: '["NETLIFY_AUTH_TOKEN", "NETLIFY_SITE_ID"]'
         # timeout-minutes: 1
 

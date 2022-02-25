@@ -263,7 +263,7 @@ Additionally, please take a look the [All Contributors docs](https://allcontribu
 
 ## Git Commit Messages Style Guide
 
-When you contributions to the project are ready & you're comfortable committing the changes, you need to pass an apt message to the `git commit` command. And this section of the document will guide you through on writing good & proper `git commit` messages.
+When your contributions to the project are ready & you're comfortable committing the changes, you need to pass an apt message to the `git commit` command. And this section of the document will guide you through on writing good & proper `git commit` messages.
 
 As mentioned earlier, code should be self-documenting, we believe the same principle should apply to `git commit` messages as well. While perusing through version control history, a second person should be able to quickly grasp what that specific commit contains after reading it's message.
 
@@ -272,10 +272,15 @@ For more information on the `git commit` command, we recommend going through it'
 That said, following is an example of a good `git-commit` message;
 
 ```shell
-git commit -m "Fix non-responsive navbar (fix ##)"
+feat: send an email to the customer when a product is shipped
 ```
 
-Give this write-up ["_How to Write a Git Commit Message_"](https://cbea.ms/git-commit) to understand the importance of & how-to writing good commit messages.
+To ensure all contributors follow that standard, we use [`commitlint`](https://github.com/conventional-changelog/commitlint) to enforce it.
+
+Additionally, you can give the following articles a thorough read to have a better idea on writing good commit messages;
+
+- ["_How to Write a Git Commit Message_"](https://cbea.ms/git-commit)
+- [_"Write Better Git Commit Messages To Increase Your Productivity"_](https://betterprogramming.pub/write-better-git-commit-messages-to-increase-your-productivity-89fa773e8375)
 
 ## References
 

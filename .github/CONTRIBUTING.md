@@ -129,6 +129,58 @@ Once you've access to a fork of the project on your GitHub profile, you're free 
   npm install
   ```
 
+**Organizing the React Components for the Project**:
+
+Next.js is opinionated about structuring the project files, as such it expects all React Components used in a project to be place inside a `src/components` directory.While it helps having a standard practice to be enforced by the framework itself, dumping all arbitrary components in one single place can clutter the project's source code. We would like to avoid such clutter & redundancy whereever possible.
+
+On that note, each & every component of the project should be structured in the following manner:
+
+1. Each functional aspects of the website will be it's own directory & the directory names should be in lowercase. For example, `forms`, `layout`, `navigation` & so on. That way the directories will give a general idea of what it's contents are for.
+2. Keep aptly named sub-directories under the general top-level directories as mentioned above. For example, there can be a `newsletter` & `signup` sub-directories under the `forms` top-level directory.
+3. The React Components has to be written in TypeScriptReact (i.e files with `.tsx` extensions) & not in pure JavaScript/JavaScriptReact (i.e `.js`/`.jsx` files). And the same components should be named in a [CamelCase](https://en.wikipedia.org/wiki/Camel_case) format. Here's an example React Component: `NavBar.tsx`.
+4. Modules which are necessary to style or test a component like `NavBar.styles.ts`, `NavBar.stories.ts`, `NavBar.test.ts` should be clumped alongside it's component i.e `NavBar.tsx`.
+5. To further clump functional components into it's own directory, the component, it's CSS modules, Storybook & testing files will be stored under it's own specific directory. So, all `NavBar.*`-related files will be under the `NavBar` directory.
+
+On that note, this is what the typical `components` directory will look like if the above standard practice is followed:
+
+```shell
+.
+└── /src
+    └── /components
+        ├── /forms
+        │   ├── /TextField
+        │   │   ├── TextField.tsx
+        │   │   ├── TextField.styles.ts
+        │   │   ├── TextField.test.ts
+        │   │   └── TextField.stories.ts
+        │   ├── /Select
+        │   │   ├── Select.tsx
+        │   │   ├── Select.styles.ts
+        │   │   ├── Select.test.ts
+        │   │   └── Select.stories.ts
+        │   └── index.ts
+        ├── /routing
+        │   └── /PrivateRoute
+        │       ├── /PrivateRoute.tsx
+        │       └── /PrivateRoute.test.ts
+        └── /layout
+            └── /navigation
+                └── /NavBar
+                    ├── NavBar.tsx
+                    ├── NavBar.styles.ts
+                    ├── NavBar.test.ts
+                    └── NavBar.stories.ts
+```
+
+The following resouces were used as a source of inspiration to develop the standard:
+
+- [React Architecture: How to Structure and Organize a React Application](https://www.taniarascia.com/react-architecture-directory-structure/)
+- [How I set up a Next.js project structure](https://flaviocopes.com/nextjs-project-structure/)
+
+So, feel free to take a look at the resources above to gain more insights into structuring React Components for a typical Next.js project.
+
+On that note, if you feel there's something missing or perhaps the standard requires a bit more refinement then please don't hesitate  to open an issue/discussion thread.
+
 **Local Development & Pushing the Changes to `upstream`**:
 
 Once you've downloaded the dependencies, you're ready to make the first changes/fixes for bug reports. So, go ahead & let your imaginations go wild!

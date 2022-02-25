@@ -88,6 +88,13 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
+Here's a little heads up about structuring the React Components about this project. Next.js suggests dumping all Components inside the `src/components` directory of the project. We **DO NOT** suggest doing so as it can introduce unecessary clutter & redundancy.
+
+As such we took inspiration from the following two articles:
+
+- [React Architecture: How to Structure and Organize a React Application](https://www.taniarascia.com/react-architecture-directory-structure/)
+- [How I set up a Next.js project structure](https://flaviocopes.com/nextjs-project-structure/)
+
 For further instructions, do check out the detailed [contributing guidelines](./.github/CONTRIBUTING.md)
 
 ## 📄 Licensing Terms & Conditions

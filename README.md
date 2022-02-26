@@ -22,6 +22,7 @@ Add more entries of the tech stack as the project grows & developers over time -
 - [Next.js](https://nextjs.org/)
 - [TypeScript](https://www.typescriptlang.org)
 - [Vercel](https://vercel.com)
+- [Next UI](https://nextui.org/)
 - [TailwindCSS](https://tailwindcss.com)
 
 ## 🏃 Getting Started
@@ -64,7 +65,8 @@ Once you've setup the prerequisites, proceed ahead with the installation procedu
    ```sh
    npm run dev
    ```
-<!-- Insert a "roadmap" section over here once it's developed -->
+
+   <!-- Insert a "roadmap" section over here once it's developed -->
 
 ## 🚧 Contributing Guidelines
 

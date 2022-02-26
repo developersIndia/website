@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "prettier . --write"
+    "format": "prettier . --write",
+    "prepare": "husky install"
   },
   "husky": {
     "hooks": {
@@ -15,15 +16,13 @@
     }
   },
   "lint-staged": {
-    "src/**/*.{tsx,ts}": [
-      "next lint",
-      "prettier . --write"
+    "**/*.{ts,tsx}": [
+      "eslint"
     ],
-    "**/*.{json,md,yml,yaml}": [
-      "prettier . --write"
-    ]
+    "*.{json,md,yml}": "prettier --write"
   },
   "dependencies": {
+    "@nextui-org/react": "^1.0.2-beta.4",
     "next": "12.0.10",
     "react": "17.0.2",
     "react-dom": "17.0.2"
@@ -31,10 +30,19 @@
   "devDependencies": {
     "@types/node": "^17.0.17",
     "@types/react": "^17.0.39",
+    "@typescript-eslint/eslint-plugin": "^5.12.1",
+    "@typescript-eslint/parser": "^5.12.1",
     "autoprefixer": "^10.4.2",
-    "eslint": "^8.9.0",
-    "eslint-config-next": "12.0.10",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-next": "11.1.2",
     "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.29.1",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-plugin-tailwindcss": "^3.5.0",
     "husky": "^7.0.4",
     "lint-staged": "^12.3.4",
     "postcss": "^8.4.6",

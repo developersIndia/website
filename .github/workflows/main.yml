@@ -16,7 +16,7 @@ jobs:
           cache: "npm"
 
       - name: Install Prettier & ESLint
-        run: npm install prettier eslint
+        run: npm install --global prettier eslint
 
       - name: Format code using Prettier
         run: prettier . --check

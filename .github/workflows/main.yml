@@ -13,7 +13,7 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: "16"
-          # cache: "npm"
+          cache: "npm"
 
       - name: Install Prettier & ESLint
         run: npm install prettier eslint
@@ -36,41 +36,27 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: "16"
-          # cache: "npm"
+          cache: "npm"
           
       - name: 🧰 Install dependencies for Next.js Build
         run: npm install
         
       - name: 📦 Run Next.js build to generate the static files
         run: npm run build
-  
-  deploy:
-    runs-on: ubuntu-latest
-    needs: runNextBuild
-    steps:
-      # - name: Install Netlify CLI
-      #   run: npm install netlify-cli --save-dev
 
-      
-      # - name: Build Project
-      #   run: npm netlify build
+      - name: 🚀Deploy
+        run: netlify deploy --build
+        env:
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
 
-      # - name: Deploy
-      #   run: netlify deploy
-      - name: Build Project
-        uses: netlify/actions/build@master
+      # Publish the inspect and preview link to the PR
+      - name: 👓 Netlify Preview URL
+        uses: unsplash/comment-on-pr@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-
-
-      - name: Deploy
-        uses: netlify/actions/cli@master
+          OUTPUT: "This pull request is being automatically deployed to Netlify.\n\n🔍 Inspect: ${{ steps.deploy-netlify.outputs.NETLIFY_LOGS_URL }}\n✅ Preview: ${{ steps.deploy-netlify.outputs.NETLIFY_URL }}"
         with:
-          args: deploy --dir=.next --functions=functions
-        env:
-          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          msg: ${{ env.OUTPUT }}
+          check_for_duplicate_msg: false
 
-  # TODO: Health check job

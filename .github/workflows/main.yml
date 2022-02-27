@@ -22,7 +22,7 @@ jobs:
         run: prettier . --check
 
       - name: Lint source code
-        run: eslint .
+        run: npm run lint
 
   # TODO: Run test suite
 

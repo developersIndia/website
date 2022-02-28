@@ -69,7 +69,6 @@ jobs:
         with:
           body: ${{ env.OUTPUT }}
 
-
       # # Publish the inspect and preview link to the PR
       # - name: 👓 Netlify Preview URL
       #   uses: unsplash/comment-on-pr@master

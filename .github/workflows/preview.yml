@@ -1,7 +1,7 @@
-name: Deploy to Production
+name: Pull Request Preview
 
 on:
-  push:
+  pull_request:
     branches:
       - main
 
@@ -47,36 +47,28 @@ jobs:
       - name: Run Next.js build to generate the static files
         run: npm run build
 
-      - name: 🚀Deploy
+      - name: 🚀 Deploy
         id: deploy-netlify
         run: |
-          COMMAND="netlify deploy --build --prod"
+          COMMAND="netlify deploy --build -m ${{ github.head_ref }} --alias ${{ github.head_ref }}"
           OUTPUT=$(sh -c "$COMMAND")
 
+          NETLIFY_URL=$(echo "$OUTPUT" | grep -Eo '(http|https)://[a-zA-Z0-9./?=_-]*(--)[a-zA-Z0-9./?=_-]*') # Unique key: --
           NETLIFY_LOGS_URL=$(echo "$OUTPUT" | grep -Eo '(http|https)://app.netlify.com/[a-zA-Z0-9./?=_-]*') # Unique key: app.netlify.com
-          NETLIFY_LIVE_URL=$(echo "$OUTPUT" | grep -Eo '(http|https)://[a-zA-Z0-9./?=_-]*' | grep -Ev "netlify.com|(--)") # Unique key: doesn't contain -- and app.netlify.com
 
+          echo "::set-output name=netlify_preview_url::$NETLIFY_URL"
           echo "::set-output name=netlify_logs_url::$NETLIFY_LOGS_URL"
-          echo "::set-output name=netlify_live_url::$NETLIFY_LIVE_URL"
         env:
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
 
+      # Publish the inspect and preview link to the PR
       - name: 👓 Netlify Preview URL
-        uses: peter-evans/commit-comment@v1
+        uses: unsplash/comment-on-pr@master
         env:
-            OUTPUT: "This pull request is being automatically deployed to Netlify.\n\n🔍 Inspect: ${{ steps.deploy-netlify.outputs.NETLIFY_LOGS_URL }}\n✅ Preview: ${{ steps.deploy-netlify.outputs.NETLIFY_URL }}"
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OUTPUT: "This pull request is being automatically deployed to Netlify.\n\n🔍 Inspect: ${{ steps.deploy-netlify.outputs.NETLIFY_LOGS_URL }}\n✅ Preview: ${{ steps.deploy-netlify.outputs.NETLIFY_URL }}"
         with:
-          body: ${{ env.OUTPUT }}
-
-
-      # # Publish the inspect and preview link to the PR
-      # - name: 👓 Netlify Preview URL
-      #   uses: unsplash/comment-on-pr@master
-      #   env:
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      #     OUTPUT: "This pull request is being automatically deployed to Netlify.\n\n🔍 Inspect: ${{ steps.deploy-netlify.outputs.NETLIFY_LOGS_URL }}\n✅ Preview: ${{ steps.deploy-netlify.outputs.NETLIFY_URL }}"
-      #   with:
-      #     msg: ${{ env.OUTPUT }}
-      #     check_for_duplicate_msg: false
+          msg: ${{ env.OUTPUT }}
+          check_for_duplicate_msg: false
 

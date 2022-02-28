@@ -12,6 +12,8 @@ insert_final_newline = true
 # Set default charset
 [*.{js,ts,jsx,tsx}]
 charset = utf-8
+indent_style = space
+indent_size = 2
 
 # Matches the files like package.json or .github/workflows/action.yml
 [*.{json,yml}]

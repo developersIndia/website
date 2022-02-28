@@ -10,13 +10,13 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Setup Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
           node-version: "16"
           cache: "npm"
 
-      - name: Install Prettier & ESLint
-        run: npm install prettier eslint
+      - name: Install dependecies
+        run: npm ci
 
       - name: Format code using Prettier
         run: npm run format
@@ -31,20 +31,21 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
-        
+
       - name: Setup Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
           node-version: "16"
           cache: "npm"
-          
-      - name: 🧰 Install dependencies for Next.js Build
-        run: npm install
-        
-      - name: 📦 Run Next.js build to generate the static files
+
+      - name: Install dependencies for Next.js Build
+        run: npm ci
+
+      - name: Run Next.js build to generate the static files
         run: npm run build
 
       - name: 🚀Deploy
+        id: deploy-netlify
         run: netlify deploy --build
         env:
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}

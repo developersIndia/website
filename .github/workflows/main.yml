@@ -65,7 +65,7 @@ jobs:
       - name: 👓 Netlify Preview URL
         uses: peter-evans/commit-comment@v1
         env:
-            OUTPUT: "This pull request is being automatically deployed to Netlify.\n\n🔍 Inspect: ${{ steps.deploy-netlify.outputs.NETLIFY_LOGS_URL }}\n✅ Preview: ${{ steps.deploy-netlify.outputs.NETLIFY_URL }}"
+            OUTPUT: "Successfully deployed to Netlify.\n\n🔍 Inspect: ${{ steps.deploy-netlify.outputs.NETLIFY_LOGS_URL }}\n✅ Preview: ${{ steps.deploy-netlify.outputs.NETLIFY_LIVE_URL }}"
         with:
           body: ${{ env.OUTPUT }}
 

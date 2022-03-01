@@ -22,7 +22,7 @@ Add more entries of the tech stack as the project grows & developers over time -
 - [Next.js](https://nextjs.org/)
 - [TypeScript](https://www.typescriptlang.org)
 - [Vercel](https://vercel.com)
-- [TailwindCSS](https://tailwindcss.com)
+- [NextUI](https://nextui.org
 
 ## 🏃 Getting Started
 

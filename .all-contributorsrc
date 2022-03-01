@@ -162,6 +162,16 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "NiketanG",
+      "name": "Niketan Gulekar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22788998?v=4",
+      "profile": "https://nikketan.xyz",
+      "contributions": [
+        "code",
+        "infra"
+      ]
     }
   ],
   "contributorsPerLine": 7,

@@ -205,6 +205,49 @@ But there are things which we don't have control over & as such we can only reco
 
 So, with that concludes the section on "_How to contribute to the project?_". If you feel the section lacks something, please open an [Issue](https://github.com/developersIndia/website/issues/new/choose)/[Discussion](https://github.com/developersIndia/website/discussions) thread along with a referenced PR with the changes & updates.
 
+## Managing Version Release for the Project
+
+Versioning a software project isn't standard practice for no reason. It helps manage development goals in both, the long run & the short run. And if anything goes south because of a bug or a breaking change, we can revert to the previous working version of the project with much ease! Therefore versioning the project is a necessity.
+
+And this section of the document details how we manage the version for the project. Do note, backward compatibility isn't a requirement for web-based projects such as this one, hence `SemVer` does not apply here. We did come up with a more viable option for versioning the project. But keep in mind, anything written here isn't set in stone. So, if you have got a better version management idea, then please feel free to share it with us.
+
+That said, let's dive in to the intricate details of how we manage the project's versions.
+
+### How Often Do We Release a New Version
+
+The nature of the project makes it difficult to maintain a fixed release schedule, hence, it's suggested to instead release a new version (_or tag_) when there are "_important feature updates_" to the project. The said "_important feature updates_" could be say;
+
+1. Developing the Hero section of the landing page.
+2. Adding a "_info_" section with information about the community.
+3. A new "_About Us_" tab in the navigation bar
+
+....and so on.
+
+Breaking down the [end goal (_figma template_)](https://www.figma.com/file/jxpIq8GzilqzgyLpFBySP2/Developers-India-%3C3?node-id=5%3A58734) into smaller components which should be developed individually will help manage public contributions more easily!
+
+So, upon completion of each component, it would be advisable to perform a release. More about how each releases should be versioned & the procedure for releasing is detailed in the next few sections.
+
+### How Do We Version the Project
+
+Taking quite a lot of inspiration from [this comment](https://github.com/developersIndia/website/discussions/69#discussioncomment-2130963) & the parent thread, we follow a "**Year-Month**" versioning system instead.
+
+For more context, assuming the Hero section of the landing page was complete & a release could be made on the month of February & in the year 2022, then a tag aptly named `v2022-02` could be released.
+
+### What Procedure Should be Followed to Release a Version
+
+Before releasing a new version of the project, certain assumptions has to be made, checked & verified. In case some of those checklist items are missing or are out-of-place, please report it to the maintainers of the project beforehand.
+
+That said, following are the assumptions that has to checked each time before making a release:
+
+1. Version numbers has been checked & updated as per the rules stated above in the "_Versioning Rules_" section. Also don't forget to the update the version entry in the `package.json` file of the project as well!
+2. Make an entry in a `CHANGELOG.md` file with the specific details of what's changed & in which version was the change introduced.
+3. All tests, linters, formatter & URL health checks pass both locally & in the CI/CD pipeline.
+4. Release specific milestones has been updated on GitHub, completed & cleared upon tagging a commit.
+
+Once the aforementioned steps has been taken care of it's now suggested to tag a new version using the [`git-tag`](https://git-scm.com/docs/git-tag) command. Once tagged, push the changes to the remote repository to GitHub & [perform a release](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository).
+
+Do note, the contents shared above in this section documented the immediate short-term goals of the project. For a more broad long-term goal, refer to the [ROADMAP](../ROADMAP.md) to get an idea of our "_future_", "_next_" & "_current_" goals.
+
 ## Licensing Terms & Conditions
 
 We welcome all sorts of contributions to the project, be it triaging issues, reporting bugs & breaking changes and/or even taking up maintenance responsibilities. And all contributions to the project are performed under a voluntary basis for the developersIndia community.

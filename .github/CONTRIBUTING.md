@@ -207,9 +207,9 @@ So, with that concludes the section on "_How to contribute to the project?_". If
 
 ## Managing Version Release for the Project
 
-Versioning a software project isn't a standard practice for no reason. It helps manage development goals in both, the long-run & the short-run. And if things goes south because of a bug or a breaking change, we can revert back to the previous working version of the project with much ease! So, as you can versioning the project is a necessity.
+Versioning a software project isn't standard practice for no reason. It helps manage development goals in both, the long run & the short run. And if anything goes south because of a bug or a breaking change, we can revert to the previous working version of the project with much ease! Therefore versioning the project is a necessity.
 
-And this section of the document details how we manage version for the project. Do note, backwards compatability isn't a requirement for web-based projects such this current one, hence SemVer is obviously not applicable to it. We did come up with a more viable option for versioning the project after countless discussion & brainstorming session. But keep in mind, anything written here isn't set in stone. So, if you've a better version management idea, then please feel free to share it with us.
+And this section of the document details how we manage the version for the project. Do note, backward compatibility isn't a requirement for web-based projects such as this one, hence `SemVer` does not apply here. We did come up with a more viable option for versioning the project. But keep in mind, anything written here isn't set in stone. So, if you have got a better version management idea, then please feel free to share it with us.
 
 That said, let's dive in to the intricate details of how we manage the project's versions.
 
@@ -229,7 +229,7 @@ So, upon completion of each component, it would be advisable to perform a releas
 
 ### How Do We Version the Project
 
-The project in question is a website & as such backwards compatibility isn't a requirement. Hence, straight off-the-bat, releasing versions of the project isn't possible using [SemVer](https://semver.org/). So, its recommended to follow a different approach for versioning specific releases of the project. Taking quite a lot of inspiration from [this comment](https://github.com/developersIndia/website/discussions/69#discussioncomment-2130963) & the parent thread, we follow a "_Year-Month_" versioning system instead.
+Taking quite a lot of inspiration from [this comment](https://github.com/developersIndia/website/discussions/69#discussioncomment-2130963) & the parent thread, we follow a "**Year-Month**" versioning system instead.
 
 For more context, assuming the Hero section of the landing page was complete & a release could be made on the month of February & in the year 2022, then a tag aptly named `v2022-02` could be released.
 

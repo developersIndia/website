@@ -51,7 +51,9 @@ jobs:
       - name: 🚀 Deploy
         id: deploy-netlify
         run: |
-          COMMAND="netlify deploy --build"
+          COMMAND="netlify deploy --build \
+          -m ${{ github.head_ref }} \
+          --alias ${{ github.head_ref }}"
           OUTPUT=$(sh -c "$COMMAND")
 
           NETLIFY_URL=$(echo "$OUTPUT" \

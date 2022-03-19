@@ -1,17 +1,17 @@
-// This file handles whole theme and brand colors that gets applied to the website 
+// This file handles whole theme and brand colors that gets applied to the website
 // and also handles dark mode theme
 
-import { createTheme, Theme } from "@nextui-org/react"
+import { createTheme, Theme } from "@nextui-org/react";
 
 const fonts = {
-  sans: 'Inter, sans-serif',
-  mono: 'Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace'
+  sans: "Inter, sans-serif",
+  mono: "Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace",
 };
 
 const sharedTheme: Theme = {
   theme: {
-    fonts
-  }
+    fonts,
+  },
 };
 
 export const lightTheme = createTheme({
@@ -20,17 +20,18 @@ export const lightTheme = createTheme({
   theme: {
     colors: {
       // brand colors
-      background: '#fff',
-      primaryDark: '#7F56D9',
-      primary: '#9B51E0',
-      primaryLight: '#F4EBFF',
+      background: "#fff",
+      primaryDark: "#7F56D9",
+      primary: "#9B51E0",
+      primaryLight: "#F4EBFF",
 
       //TODO: gradient needs to be finalised
       // gradient: '141deg, rgba(242,119,80,0.8) 0%, rgba(57,72,179,0.4) 24%, rgba(17,35,153,0.6) 28%, rgba(6,182,34,0.5) 54%',
 
       // you can also create your own color
       // myColor: '#ff4ecd'
-
+      myGradient:
+        "141deg, rgba(242,119,80,0.8) 0%, rgba(57,72,179,0.4) 24%, rgba(17,35,153,0.6) 28%, rgba(6,182,34,0.5) 54%",
       // ...  more colors
     },
     space: {},
@@ -44,10 +45,10 @@ export const darkTheme = createTheme({
     colors: {
       //TODO: needs to be finalised yet
       // brand colors
-      background: '#111',
-      primaryDark: '#7F56D9',
-      primary: '#9B51E0',
-      primaryLight: '#F4EBFF',
+      background: "#111",
+      primaryDark: "#7F56D9",
+      primary: "#9B51E0",
+      primaryLight: "#F4EBFF",
 
       //TODO: gradient needs to be finalised
       // gradient: '141deg, rgba(242,119,80,0.8) 0%, rgba(57,72,179,0.4) 24%, rgba(17,35,153,0.6) 28%, rgba(6,182,34,0.5) 54%',

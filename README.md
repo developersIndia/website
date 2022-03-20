@@ -142,6 +142,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/gogeta95"><img src="https://avatars.githubusercontent.com/u/8329096?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Saurabh</b></sub></a><br /><a href="https://github.com/developersIndia/website/commits?author=gogeta95" title="Documentation">📖</a></td>
     <td align="center"><a href="https://nikketan.xyz"><img src="https://avatars.githubusercontent.com/u/22788998?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Niketan Gulekar</b></sub></a><br /><a href="https://github.com/developersIndia/website/commits?author=NiketanG" title="Code">💻</a> <a href="#infra-NiketanG" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
+    <td align="center"><a href="https://devanshbajaj.dev/"><img src="https://avatars.githubusercontent.com/u/25902200?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Devansh Bajaj</b></sub></a><br /><a href="https://github.com/developersIndia/website/commits?author=DevanshBajaj" title="Code">💻</a> <a href="#design-DevanshBajaj" title="Design">🎨</a> <a href="#ideas-DevanshBajaj" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 

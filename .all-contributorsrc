@@ -172,6 +172,17 @@
         "code",
         "infra"
       ]
+    },
+    {
+      "login": "DevanshBajaj",
+      "name": "Devansh Bajaj",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25902200?v=4",
+      "profile": "https://devanshbajaj.dev/",
+      "contributions": [
+        "code",
+        "design",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,

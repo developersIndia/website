@@ -1,5 +1,7 @@
+//Consist all the styles of Hero Component
 import { styled, Button } from "@nextui-org/react";
 
+//StyledContainer wraps whole hero page and adds bg image in the bottom of the section
 export const StyledContainer = styled("div", {
   display: "flex",
   flexDirection: "column",
@@ -15,6 +17,7 @@ export const StyledContainer = styled("div", {
   gap: "2rem",
 });
 
+//StyledTitle is used to style main title in the hero section
 export const StyledTitle = styled("h1", {
   fontSize: "4rem",
   textGradient: "$myGradient",
@@ -28,6 +31,7 @@ export const StyledTitle = styled("h1", {
   },
 });
 
+//StyledSubtitle is used to style main subtitle in the hero section
 export const StyledSubtitle = styled("h6", {
   fontSize: "1.4rem",
   textAlign: "center",
@@ -40,6 +44,7 @@ export const StyledSubtitle = styled("h6", {
   },
 });
 
+//ButtonWrapper is used to wrap button components as intended in the figma design
 export const ButtonWrapper = styled("div", {
   display: "flex",
   flexDirection: "column",
@@ -55,10 +60,12 @@ export const ButtonWrapper = styled("div", {
   },
 });
 
+//StyledButton is used to customize the buttons in hero page and
+//it has two variants one for the normal solid button and other for bordered button
 export const StyledButton = styled(Button, {
   variants: {
     size: {
-      mysize: {
+      solidsize: {
         height: "$12", // space[12]
         borderRadius: "$lg", // radii.xs
         fontSize: "0.8rem",

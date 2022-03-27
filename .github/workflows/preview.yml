@@ -44,41 +44,20 @@ jobs:
       - name: Run Next.js build to generate the static files
         run: npm run build
 
-        # Runs the deploy command
-        # Parses the output, and 
-        # retrieves the build log url & the deployed url,
-        # finally stores them into variables: NETLIFY_LOGS_URL & NETLIFY_LIVE_URL
-      - name: 🚀 Deploy
-        id: deploy-netlify
-        run: |
-          COMMAND="netlify deploy --build \
-          -m ${{ github.head_ref }}"
-          OUTPUT=$(sh -c "$COMMAND")
-
-          NETLIFY_URL=$(echo "$OUTPUT" \
-          | grep -Eo '(http|https)://[a-zA-Z0-9./?=_-]*(--)[a-zA-Z0-9./?=_-]*')
-          # Unique key: --
-          
-          NETLIFY_LOGS_URL=$(echo "$OUTPUT" \
-          | grep -Eo '(http|https)://app.netlify.com/[a-zA-Z0-9./?=_-]*')
-          # Unique key: app.netlify.com
-
-          echo "::set-output name=netlify_preview_url::$NETLIFY_URL"
-          echo "::set-output name=netlify_logs_url::$NETLIFY_LOGS_URL"
-        env:
-          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-
-      # Publish the inspect and preview link to the PR
-      - name: 👓 Netlify Preview URL
-        uses: unsplash/comment-on-pr@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          OUTPUT: |
-            This pull request is being automatically deployed to Netlify
-            🔍 Inspect: ${{ steps.deploy-netlify.outputs.NETLIFY_LOGS_URL }}
-            ✅ Preview: ${{ steps.deploy-netlify.outputs.NETLIFY_PREVIEW_URL }}
-
+      - name: Deploy to Netlify
+        uses: nwtgck/actions-netlify@v1.2
         with:
-          msg: ${{ env.OUTPUT }}
-          check_for_duplicate_msg: true
+          publish-dir: "./.next"
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          deploy-message: ${{ github.event.pull_request.title }}
+          enable-commit-comment: false
+          enable-commit-status: false
+          netlify-config-path: ./netlify.toml
+          alias: deploy-preview-${{ github.event.number }}
+          github-deployment-environment: Netlify Deployments
+          github-deployment-description: Environment which tracks the deployment URLs of the project
+          fails-without-credentials: true
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+        timeout-minutes: 1

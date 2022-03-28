@@ -8,6 +8,8 @@
 
 # ❓ About The Project
 
+Making a temporary change to check if the CI/CD pipeline works. For more context, the GitHub Secrets mightn't be accessible to workflows triggered by a forked Pull Request. So, this changes is meant to check if anything's fixed or not.
+
 <!--
 Add a screencast (preferably in GIF format) to showcase the webpage & for obvious SEO reasons
 -->

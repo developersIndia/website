@@ -1,5 +1,9 @@
 import { Col, Image } from "@nextui-org/react";
-import { StyledContainer, StyledSubtitle, StyledTitle } from "./Hero.styles";
+import {
+  StyledContainer,
+  StyledSubtitle,
+  StyledTitle,
+} from "@components/hero/Hero.styles";
 
 //TODO import StyledButton and ButtonWrapper from Hero.styles whenever we add buttons back
 

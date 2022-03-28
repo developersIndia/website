@@ -11,11 +11,9 @@
     "allowJs": true,
     "noEmit": true,
     "incremental": true,
-
     // Type Checking Options
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-
     // Strict Type-Checking Options
     "strict": true,
     "noImplicitAny": true,
@@ -23,17 +21,16 @@
     "strictFunctionTypes": true,
     "strictPropertyInitialization": true,
     "alwaysStrict": true,
-
     // Module Resolution Options
     "moduleResolution": "node",
     "baseUrl": ".",
     "paths": {
       "@static/*": ["public/*"],
-      "@styles/*": ["src/styles/*"]
+      "@styles/*": ["src/styles/*"],
+      "@components/*": ["src/components/*"]
     },
     "resolveJsonModule": true,
     "isolatedModules": true
-
     // Experimental Options
     // "experimentalDecorators": true,
     // "emitDecoratorMetadata": true,

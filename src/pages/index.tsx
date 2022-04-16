@@ -11,7 +11,7 @@ export default function Home() {
           //myGradient is declared in @styles/theme.ts
           textGradient: "$myGradient",
         }}>
-        Hello from Developers India
+        Hello from Developers India. Some good things are on its way!
       </Text>
     </div>
   );

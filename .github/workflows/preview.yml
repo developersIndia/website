@@ -1,6 +1,7 @@
 name: Pull Request Preview
 
-on: [pull_request]
+on: 
+  - pull_request_target
 
 jobs:
   runCodeQualityChecks:
@@ -47,11 +48,12 @@ jobs:
       - name: Deploy to Netlify
         uses: nwtgck/actions-netlify@v1.2
         with:
-          publish-dir: "./out"
+          publish-dir: './out'
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          deploy-message: ${{ github.event.pull_request.title }}
+          enable-pull-request-comment: true
           enable-commit-comment: false
-          enable-commit-status: false
+          overwrites-pull-request-comment: true
+          deploy-message: ${{ github.event.pull_request.title }}
           netlify-config-path: ./netlify.toml
           alias: deploy-preview-${{ github.event.number }}
           github-deployment-environment: Netlify Deployments

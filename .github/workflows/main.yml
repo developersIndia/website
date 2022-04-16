@@ -51,14 +51,12 @@ jobs:
         uses: nwtgck/actions-netlify@v1.2
         with:
           publish-dir: "./out"
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          deploy-message: ${{ github.event.pull_request.title }}
           enable-commit-comment: false
           enable-commit-status: false
           netlify-config-path: ./netlify.toml
-          alias: deploy-preview-${{ github.event.number }}
           github-deployment-environment: Netlify Deployments
           github-deployment-description: Environment which tracks the deployment URLs of the project
+          production-branch: master
           fails-without-credentials: true
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}

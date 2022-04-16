@@ -51,7 +51,6 @@ jobs:
         uses: nwtgck/actions-netlify@v1.2
         with:
           publish-dir: "./out"
-          # github-token: ${{ secrets.GITHUB_TOKEN }}
           enable-commit-comment: false
           enable-commit-status: false
           netlify-config-path: ./netlify.toml

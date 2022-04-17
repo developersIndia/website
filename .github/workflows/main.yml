@@ -47,10 +47,18 @@ jobs:
       - name: Run Next.js build to generate the static files
         run: npm run build
 
-        # Runs the deploy command
-      - name: 🚀Deploy
-        id: deploy-netlify
-        run: netlify deploy --build --prod
+      - name: Deploy to Netlify
+        uses: nwtgck/actions-netlify@v1.2
+        with:
+          publish-dir: "./out"
+          enable-commit-comment: false
+          enable-commit-status: false
+          netlify-config-path: ./netlify.toml
+          github-deployment-environment: Netlify Deployments
+          github-deployment-description: Environment which tracks the deployment URLs of the project
+          production-branch: master
+          fails-without-credentials: true
         env:
-          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+        timeout-minutes: 1

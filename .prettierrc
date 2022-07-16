@@ -1,3 +1,16 @@
 {
-  "bracketSameLine": true
+  "trailingComma": "es5",
+  "tabWidth": 2,
+  "semi": true,
+  "bracketSameLine": false,
+  "proseWrap": "always",
+  "importOrder": [
+    "^(next/(.*)$)|(next$)$",
+    "<THIRD_PARTY_MODULES>",
+    "^@components/(.*)$",
+    "^@styles/(.*)$",
+    "^[./]$"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
 }

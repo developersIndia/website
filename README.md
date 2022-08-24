@@ -1,6 +1,6 @@
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
-[![CI/CD Pipeline](https://github.com/developersIndia/website/actions/workflows/main.yml/badge.svg)](https://github.com/developersIndia/website/actions/workflows/main.yml) ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/developersIndia/website?color=%237f7f7f&label=Commit%20Activity&logo=GitHub) ![GitHub](https://img.shields.io/github/license/developersIndia/website?color=%23848484&label=License&logo=GitHub) ![Discord](https://img.shields.io/discord/669880381649977354?color=%237289da&label=Discord&logo=Discord) ![Subreddit subscribers](https://img.shields.io/reddit/subreddit-subscribers/developersIndia?style=social)
+![CI/CD Pipeline](https://img.shields.io/netlify/97531079-869c-4c16-8fe9-06a8e2cb14a0?color=%2300C7B7&label=Netlify&logo=Netlify&style=flat-square) ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/developersIndia/website?color=%237f7f7f&label=Commit%20Activity&logo=GitHub) ![GitHub](https://img.shields.io/github/license/developersIndia/website?color=%23848484&label=License&logo=GitHub) ![Discord](https://img.shields.io/discord/669880381649977354?color=%237289da&label=Discord&logo=Discord) ![Subreddit subscribers](https://img.shields.io/reddit/subreddit-subscribers/developersIndia?style=social)
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
 

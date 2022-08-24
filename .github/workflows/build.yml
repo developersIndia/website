@@ -19,21 +19,23 @@ jobs:
       - name: TODO - Setup the project for deployment.
         run: echo ""
 
-      - name: Deploy to Netlify
-        uses: nwtgck/actions-netlify@v1.2
-        with:
-          publish-dir: ".next"
-          production-branch: "main"
-          production-deploy: true
-          netlify-config-path: "netlify.toml"
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          deploy-message: "Deployed using GitHub Actions"
-          enable-pull-request-comment: false
-          enable-commit-comment: false
-          overwrites-pull-request-comment: false
-          github-deployment-environment: "Netlify Deployment"
-          github-deployment-description: "The production deployment environment on Netlify"
-          fails-without-credentials: true
-        env:
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+      # TODO: Deploying to Netlify using GitHub isn't reliable enough (previous experience),
+      # hence we need to reevaluate out options before implementing a solution for it.
+      # - name: Deploy to Netlify
+      #   uses: nwtgck/actions-netlify@v1.2
+      #   with:
+      #     publish-dir: ".next"
+      #     production-branch: "main"
+      #     production-deploy: true
+      #     netlify-config-path: "netlify.toml"
+      #     github-token: ${{ secrets.GITHUB_TOKEN }}
+      #     deploy-message: "Deployed using GitHub Actions"
+      #     enable-pull-request-comment: false
+      #     enable-commit-comment: false
+      #     overwrites-pull-request-comment: false
+      #     github-deployment-environment: "Netlify Deployment"
+      #     github-deployment-description: "The production deployment environment on Netlify"
+      #     fails-without-credentials: true
+      #   env:
+      #     NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+      #     NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}

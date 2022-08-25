@@ -34,7 +34,7 @@ function IndexPage() {
             fontWeight="extrabold"
             textAlign="center"
           >
-            India&apos;s Biggest Developers Community
+            India&apos;s Largest Network of Software & Tech Professionals
           </Heading>
 
           <Text textAlign="center" paddingX={{ base: 10, md: 44 }}>

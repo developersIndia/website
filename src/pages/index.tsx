@@ -16,7 +16,6 @@ import {
   BsCurrencyDollar,
   BsFillLightningChargeFill,
   BsGraphUp,
-  BsHeartFill,
 } from "react-icons/bs";
 import { FaDiscord, FaGithub, FaReddit } from "react-icons/fa";
 

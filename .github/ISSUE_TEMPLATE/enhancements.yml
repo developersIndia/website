@@ -1,0 +1,60 @@
+name: Suggesting Enhancements 📑
+description: Suggest some enhancement like improved design aspects or feature request for the devsIndia.in community website.
+labels: ["enhancement"]
+assignees:
+  - Bhupesh-V
+  - Jarmos-san
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to suggest an enhancement for the community website 🧡. If you have any questions, feel free to use the Discussions panel on GitHub.
+
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      description: What kind of enhancement would you like to see on the community website.
+      placeholder: Example enhancements could be like - "Increase the colour contrast for the 'Home' button" & so on.
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the nature & the intricate details of the enhancement of your suggestions.
+      placeholder: Explain in detail, everything you want us to know about the enhancement.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: is-faq
+    attributes:
+      label: Are you willing to take the initiative to implement & contribute a PR of the said feature/enhancement?
+      description: We appreciate receiving as many helping hands as possible & we're open to receiving PRs. So, please let us know if you would like to implement the enhancement/feature you want to see in a PR?
+      options:
+        - "Yes"
+        - "No"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: your-role
+    attributes:
+      label: Will this enhancement require a significant code refactor or an increase in the total numer of lines of code in the source code?
+      description: Everyone contributing to the project does so in their free leisure time. Hence, bear in mind when contributing an enhancement/feature with an increased number of lines code will take a while for reviewing & acceptance.
+      options:
+        - "Yes"
+        - "No"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/developersIndia/.github/blob/main/CODE_OF_CONDUCT.md)
+      options:
+        - label: I agree to follow the community's Code of Conduct
+          required: true

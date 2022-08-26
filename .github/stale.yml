@@ -1,0 +1,20 @@
+# Number of days before a thread is marked stale due to inactivity.
+daysUntilStale: 20
+
+# Number of days before a thread is closed due to inactivity.
+daysUntilClose: 7
+
+# Labels to exempt threads which shouldn't be closed.
+exemptLabels:
+  - "dont stale"
+
+# Labels to mark stale threads with.
+staleLabel: stale
+
+# Comment to post on thread marked as stale.
+markComment: >
+  This issue is automatically marked stale because it hasn't received any
+  recent activity. Hence, it'll be closed if no further activity occurs.
+
+# Disabled the closing comment since a single message is more than enough.
+closeComment: false

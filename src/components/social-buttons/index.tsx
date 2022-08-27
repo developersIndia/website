@@ -4,12 +4,12 @@ import { FaDiscord, FaGithub, FaReddit } from "react-icons/fa";
 function SocialButtons() {
   return (
     <Stack direction="row" spacing={4}>
-      {/* TODO: Fix the colorschemes of the button as per their official colour hex code. */}
       <Button
         leftIcon={<FaDiscord />}
         size={{ base: "md", md: "lg" }}
         variant="solid"
-        colorScheme="blue"
+        color="#5865F2"
+        borderRadius={90}
       >
         <Link href="https://discord.gg/G4XDD7MpfE" isExternal>
           Discord
@@ -20,7 +20,8 @@ function SocialButtons() {
         leftIcon={<FaReddit />}
         size={{ base: "md", md: "lg" }}
         variant="solid"
-        colorScheme="orange"
+        color="#FF4500"
+        borderRadius={90}
       >
         <Link href="https://www.reddit.com/r/developersIndia" isExternal>
           Reddit
@@ -31,7 +32,8 @@ function SocialButtons() {
         leftIcon={<FaGithub />}
         size={{ base: "md", md: "lg" }}
         variant="solid"
-        colorScheme="blackAlpha"
+        color="#181717"
+        borderRadius={90}
       >
         <Link href="https://github.com/developersIndia" isExternal>
           GitHub

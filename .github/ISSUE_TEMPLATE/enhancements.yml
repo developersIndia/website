@@ -11,15 +11,6 @@ body:
       value: |
         Thanks for taking the time to suggest an enhancement for the community website 🧡. If you have any questions, feel free to use the Discussions panel on GitHub.
 
-  - type: input
-    id: title
-    attributes:
-      label: Title
-      description: What kind of enhancement would you like to see on the community website.
-      placeholder: Example enhancements could be like - "Increase the colour contrast for the 'Home' button" & so on.
-    validations:
-      required: true
-
   - type: textarea
     id: description
     attributes:

@@ -8,7 +8,13 @@ import {
 function MissionSection() {
   return (
     <>
-      <Heading as="h2" textAlign="center" size="xl" marginBottom={4}>
+      <Heading
+        as="h2"
+        color="#101828"
+        textAlign="center"
+        size="xl"
+        marginBottom={4}
+      >
         Our Mission
       </Heading>
 
@@ -17,6 +23,7 @@ function MissionSection() {
         paddingX={{ md: 32 }}
         textAlign="center"
         fontSize={{ base: 18, md: 22 }}
+        color="#667085"
       >
         At our core, we value a lot of things. Our main motive is to become
         India&apos;s largest community where people collaborate and exchange
@@ -30,8 +37,9 @@ function MissionSection() {
             <Heading
               fontWeight={{ base: "bold", md: "hairline" }}
               marginBottom={4}
-              marginLeft={5}
+              marginLeft={2}
               size="md"
+              color="#101828"
             >
               Knowledge Transfer
             </Heading>
@@ -41,6 +49,7 @@ function MissionSection() {
             paddingX={{ base: 6, md: 28 }}
             marginLeft={{ md: 9 }}
             textAlign="center"
+            color="#667085"
           >
             Be it Ruby on Rails or Python, with developers working on different
             stacks coming together its always a win-win for the greater
@@ -53,9 +62,10 @@ function MissionSection() {
             <BsCurrencyDollar />
             <Heading
               marginBottom={4}
+              marginLeft={2}
               fontWeight={{ base: "bold", md: "hairline" }}
-              marginLeft={5}
               size="md"
+              color="#101828"
             >
               Potential Job Opportunities
             </Heading>
@@ -65,6 +75,7 @@ function MissionSection() {
             paddingX={{ base: 6, md: 28 }}
             marginLeft={{ md: 9 }}
             textAlign="center"
+            color="#667085"
           >
             Our community members come from a variety of backgrounds! Some work
             in the big name MNCs, a few in the well-known FAANG companies & some
@@ -79,8 +90,9 @@ function MissionSection() {
             <Heading
               fontWeight={{ base: "bold", md: "hairline" }}
               marginBottom={4}
-              marginLeft={5}
+              marginLeft={2}
               size="md"
+              color="#101828"
             >
               Growth Prospects
             </Heading>
@@ -90,6 +102,7 @@ function MissionSection() {
             paddingX={{ base: 6, md: 28 }}
             marginLeft={{ md: 9 }}
             textAlign="center"
+            color="#667085"
           >
             We host coding live streams, talks from experienced industry experts
             & such. So, by being part of the community expect to gain some

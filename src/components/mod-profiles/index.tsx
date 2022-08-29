@@ -44,6 +44,7 @@ function ModProfiles() {
         right now!
       </Text>
 
+      {/* TODO: Refactor each of the moderator profile in to an individual component. */}
       <Center>
         <Stack
           direction={{ base: "column", md: "row" }}
@@ -72,6 +73,7 @@ function ModProfiles() {
           />
         </Stack>
       </Center>
+      {/* TODO: Add the rest of the moderator team member information. */}
     </>
   );
 }

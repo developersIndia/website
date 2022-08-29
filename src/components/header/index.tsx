@@ -25,7 +25,7 @@ function Header() {
         on Discord, Reddit and/or on GitHub.
       </Text>
 
-      <Center paddingBottom={12}>
+      <Center>
         <SocialButtons />
       </Center>
     </>

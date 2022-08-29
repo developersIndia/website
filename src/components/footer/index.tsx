@@ -13,7 +13,18 @@ function FooterSection() {
           &copy; 2022-{new Date().getFullYear()} DevelopersIndia
         </Text>
         <Text as="small" color="#98A2B3">
-          Made in India with open-source ❤️
+          Made in India with{" "}
+          <span>
+            <a
+              style={{ textDecoration: "underline" }}
+              href="https://github.com/developersIndia"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Open-Source
+            </a>
+          </span>{" "}
+          ❤️
         </Text>
       </Stack>
     </>

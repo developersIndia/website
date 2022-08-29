@@ -13,6 +13,7 @@ function MissionSection() {
         color="#101828"
         textAlign="center"
         size="xl"
+        fontFamily="inter"
         marginBottom={4}
       >
         Our Mission
@@ -22,7 +23,8 @@ function MissionSection() {
         marginBottom={12}
         paddingX={{ md: 32 }}
         textAlign="center"
-        fontSize={{ base: 18, md: 22 }}
+        fontSize={{ base: "md", md: "xl" }}
+        fontFamily="inter"
         color="#667085"
       >
         At our core, we value a lot of things. Our main motive is to become
@@ -35,7 +37,8 @@ function MissionSection() {
           <Flex align="baseline" justify="center">
             <BsFillLightningChargeFill />
             <Heading
-              fontWeight={{ base: "bold", md: "hairline" }}
+              fontWeight="medium"
+              fontFamily="inter"
               marginBottom={4}
               marginLeft={2}
               size="md"
@@ -49,6 +52,7 @@ function MissionSection() {
             paddingX={{ base: 6, md: 28 }}
             marginLeft={{ md: 9 }}
             textAlign="center"
+            fontFamily="inter"
             color="#667085"
           >
             Be it Ruby on Rails or Python, with developers working on different
@@ -63,7 +67,8 @@ function MissionSection() {
             <Heading
               marginBottom={4}
               marginLeft={2}
-              fontWeight={{ base: "bold", md: "hairline" }}
+              fontWeight="medium"
+              fontFamily="inter"
               size="md"
               color="#101828"
             >
@@ -76,6 +81,7 @@ function MissionSection() {
             marginLeft={{ md: 9 }}
             textAlign="center"
             color="#667085"
+            fontFamily="inter"
           >
             Our community members come from a variety of backgrounds! Some work
             in the big name MNCs, a few in the well-known FAANG companies & some
@@ -88,7 +94,8 @@ function MissionSection() {
           <Flex justify="center" align="baseline">
             <BsGraphUp />
             <Heading
-              fontWeight={{ base: "bold", md: "hairline" }}
+              fontWeight="medium"
+              fontFamily="inter"
               marginBottom={4}
               marginLeft={2}
               size="md"
@@ -103,6 +110,7 @@ function MissionSection() {
             marginLeft={{ md: 9 }}
             textAlign="center"
             color="#667085"
+            fontFamily="inter"
           >
             We host coding live streams, talks from experienced industry experts
             & such. So, by being part of the community expect to gain some

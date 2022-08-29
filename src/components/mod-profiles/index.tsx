@@ -48,7 +48,7 @@ function ModProfiles() {
       <Center>
         <Stack
           direction={{ base: "column", md: "row" }}
-          spacing={{ base: 8, md: 32 }}
+          spacing={{ base: 16, md: 32 }}
         >
           {/* TODO: Add more information about the individual admins & moderators. */}
           <Avatar

@@ -12,15 +12,34 @@ import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 function ModProfiles() {
   return (
     <>
-      <Text textAlign="center" color="#138808" fontWeight="bold" marginY={4}>
+      <Text
+        textAlign="center"
+        color="#138808"
+        fontWeight="semibold"
+        fontFamily="inter"
+        fontSize="md"
+        marginY={4}
+      >
         Our Team
       </Text>
-
-      <Heading color="#101828" textAlign="center" marginBottom={9} size="2xl">
+      <Heading
+        fontFamily="inter"
+        fontWeight="bold"
+        color="#101828"
+        textAlign="center"
+        marginBottom={9}
+        size="2xl"
+      >
         Faces Behind DevsIndia
       </Heading>
-
-      <Text textAlign="center" color="#667085" marginBottom={20}>
+      <Text
+        fontFamily="inter"
+        fontSize="lg"
+        textAlign="center"
+        color="#667085"
+        marginBottom={20}
+        paddingX={{ base: 10 }}
+      >
         These are the people whose efforts led the community to where it is
         right now!
       </Text>

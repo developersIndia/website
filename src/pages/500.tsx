@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Box, Button, Container, HStack, Text } from "@chakra-ui/react";
 import { FaHome } from "react-icons/fa";
 
-function NotFound() {
+function ServerErrorPage() {
   return (
     <Container
       display="flex"
@@ -25,4 +25,4 @@ function NotFound() {
   );
 }
 
-export default NotFound;
+export default ServerErrorPage;

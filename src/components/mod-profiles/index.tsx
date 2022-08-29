@@ -1,4 +1,13 @@
-import { Avatar, Center, Heading, Stack, Text } from "@chakra-ui/react";
+import {
+  Avatar,
+  Center,
+  Heading,
+  IconButton,
+  Link,
+  Stack,
+  Text,
+} from "@chakra-ui/react";
+import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 function ModProfiles() {
   return (

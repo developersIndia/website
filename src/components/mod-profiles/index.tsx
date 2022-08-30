@@ -1,5 +1,6 @@
 import { moderators } from "../../utils/constant";
-import { Avatar, Center, Heading, Stack, Text } from "@chakra-ui/react";
+import ProfileCards from "./cards";
+import { Center, Grid, GridItem, Heading, Text } from "@chakra-ui/react";
 
 function ModProfiles() {
   return (
@@ -39,41 +40,20 @@ function ModProfiles() {
       </Text>
 
       {/* TODO: The "Avatar" component from Chakra-UI isn't optimised. So it */}
-      {/* should be replaced with the "Image" component from the "Next.js". See */}
-      {/* the following info section for more reference. */}
-      {/* INFO: The "Image" component cannot be styled properly with Chakra-UI right now. */}
-      {/* Hence, the next best course of action right now is to either wait for a future */}
-      {/* Next.js release. Or use the "Image" component from the "future" package. */}
-      {/* For more information, check the following references. */}
-      {/* 1. https://nextjs.org/docs/api-reference/next/future/image */}
-      {/* 2. https://github.com/vercel/next.js/discussions/22861 */}
-      {/* INFO: This will be the refactored version of the code below it */}
+      {/* should be replaced with the "Image" component from the "Next.js". */}
       <Center>
-        <Stack direction={{ base: "column", md: "row" }}>
+        <Grid templateColumns={{ md: "repeat(3, 1fr)" }} gap={16}>
           {moderators.map((moderator) => (
-            // TODO: Replace the horizontal stack with a "Grid" component instead.
-            <Stack key={moderator.name} align="center">
-              <Avatar name={moderator.name} src={moderator.img} size="xl" />
-
-              <Text fontFamily="inter" fontWeight="medium" fontSize="lg">
-                {moderator.name}
-              </Text>
-
-              <Text color={"#6941C6"}>{moderator.designation}</Text>
-
-              <Text
-                color="#667085"
-                fontFamily="inter"
-                fontSize="sm"
-                paddingX={6}
-                paddingBottom={2}
-                textAlign="center"
-              >
-                {moderator.tagline}
-              </Text>
-            </Stack>
+            <GridItem key={moderator.name}>
+              <ProfileCards
+                name={moderator.name}
+                imgSrc={moderator.img}
+                role={moderator.role}
+                tagline={moderator.tagline}
+              />
+            </GridItem>
           ))}
-        </Stack>
+        </Grid>
       </Center>
     </>
   );

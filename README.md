@@ -118,6 +118,7 @@ the project:
     <td align="center"><a href="https://nikketan.xyz"><img src="https://avatars.githubusercontent.com/u/22788998?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Niketan Gulekar</b></sub></a><br /><a href="https://github.com/developersIndia/website/commits?author=NiketanG" title="Code">💻</a> <a href="#infra-NiketanG" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
     <td align="center"><a href="https://devanshbajaj.dev/"><img src="https://avatars.githubusercontent.com/u/25902200?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Devansh Bajaj</b></sub></a><br /><a href="https://github.com/developersIndia/website/commits?author=DevanshBajaj" title="Code">💻</a> <a href="#design-DevanshBajaj" title="Design">🎨</a> <a href="#ideas-DevanshBajaj" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/krishnaar21/"><img src="https://avatars.githubusercontent.com/u/22657500?v=4?s=100" width="100px;" alt=""/><br /><sub><b>KRISHNA AR</b></sub></a><br /><a href="#design-krishnaar21" title="Design">🎨</a></td>
+    <td align="center"><a href="https://bhupeshpradhan.vercel.app/"><img src="https://avatars.githubusercontent.com/u/76522149?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Bhupesh Pradhan</b></sub></a><br /><a href="https://github.com/developersIndia/website/commits?author=bhupeshpr25" title="Code">💻</a> <a href="#design-bhupeshpr25" title="Design">🎨</a></td>
   </tr>
 </table>
 

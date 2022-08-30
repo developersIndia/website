@@ -192,6 +192,16 @@
       "contributions": [
         "design"
       ]
+    },
+    {
+      "login": "bhupeshpr25",
+      "name": "Bhupesh Pradhan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76522149?v=4",
+      "profile": "https://bhupeshpradhan.vercel.app/",
+      "contributions": [
+        "code",
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,

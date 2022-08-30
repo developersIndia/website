@@ -10,7 +10,7 @@
     "format": "prettier . --write"
   },
   "dependencies": {
-    "@chakra-ui/react": "^2.2.9",
+    "@chakra-ui/react": "^2.3.1",
     "@emotion/react": "^11.10.0",
     "@emotion/styled": "^11.10.0",
     "@fontsource/inter": "^4.5.12",
@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^3.3.0",
-    "@types/node": "18.7.13",
+    "@types/node": "18.7.14",
     "@types/react": "18.0.17",
     "@types/react-dom": "18.0.6",
     "eslint": "8.23.0",

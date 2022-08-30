@@ -8,9 +8,10 @@ function SocialButtons() {
         leftIcon={<FaDiscord />}
         size={{ base: "md", md: "lg" }}
         variant="solid"
+        bgColor="gray.300"
         color="#5865F2"
         borderRadius={90}
-        boxShadow="md"
+        boxShadow="lg"
       >
         <Link href="https://discord.gg/G4XDD7MpfE" isExternal>
           Discord
@@ -21,9 +22,10 @@ function SocialButtons() {
         leftIcon={<FaReddit />}
         size={{ base: "md", md: "lg" }}
         variant="solid"
+        bgColor="gray.300"
         color="#FF4500"
         borderRadius={90}
-        boxShadow="md"
+        boxShadow="lg"
       >
         <Link href="https://www.reddit.com/r/developersIndia" isExternal>
           Reddit
@@ -34,9 +36,10 @@ function SocialButtons() {
         leftIcon={<FaGithub />}
         size={{ base: "md", md: "lg" }}
         variant="solid"
+        bgColor="gray.300"
         color="#181717"
         borderRadius={90}
-        boxShadow="md"
+        boxShadow="lg"
       >
         <Link href="https://github.com/developersIndia" isExternal>
           GitHub

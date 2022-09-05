@@ -1,31 +1,21 @@
 import SocialButtons from "../social-buttons";
-import { Center, Heading, Text } from "@chakra-ui/react";
+import styles from "./cta.module.scss";
 
 function CtaSection() {
   return (
-    <>
-      <Heading
-        fontFamily="inter"
-        fontWeight="bold"
-        size="lg"
-        textAlign="center"
-        marginY={6}
-      >
-        &gt;Ready to be Part of the Community?
-      </Heading>
-      <Text
-        fontFamily="inter"
-        paddingX={{ base: 12 }}
-        paddingBottom={10}
-        textAlign="center"
-        color="#667085"
-      >
-        Join us in our attempt to make the community a better place.
-      </Text>
-      <Center>
+    <section className={styles.cta}>
+      {/* <div className={styles.divider}></div> */}
+      <div className="container-xl">
+        <h2 className="heading-secondary">
+          &gt;Ready to be part of the community?
+        </h2>
+        <p className={styles.text}>
+          Join us in our attempt to make the community a better place.
+        </p>
         <SocialButtons />
-      </Center>
-    </>
+      </div>
+      <div className={styles.divider2}></div>
+    </section>
   );
 }
 

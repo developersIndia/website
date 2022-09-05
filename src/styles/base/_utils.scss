@@ -1,0 +1,20 @@
+.divider {
+  opacity: 0.6;
+  border: 0;
+  border-color: inherit;
+  border-style: solid;
+  border-bottom-width: 1px;
+  width: 100%;
+  max-width: $max-content-width-lg;
+  margin: auto;
+}
+
+.container-lg {
+  max-width: $max-content-width-lg;
+  margin: auto;
+}
+
+.container-xl {
+  max-width: $max-content-width-xl;
+  margin: auto;
+}

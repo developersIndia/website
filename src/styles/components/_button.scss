@@ -1,0 +1,61 @@
+@mixin btn {
+  padding: 1rem 2rem;
+  border-radius: 10rem;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  width: fit-content;
+  color: $color-dark;
+  font-weight: 700;
+  margin: 0 1rem;
+  font-size: 1.8rem;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.button-light {
+  @include btn;
+  background-color: $color-light;
+  color: $color-primary;
+  box-shadow: 0 5px 10px rgba(black, 0.1);
+
+  &:hover {
+    background-color: darken($color-light, 10%);
+  }
+}
+
+.button-dark {
+  @include btn;
+  background-color: $color-primary;
+  color: $color-light;
+  border: none;
+
+  &:hover {
+    background-color: lighten($color-primary, 30%);
+  }
+}
+
+.button-outline-light {
+  @include btn;
+  border: 2px solid white;
+  color: white;
+  background: transparent;
+
+  &:hover {
+    background-color: $color-light;
+    color: $color-primary;
+  }
+}
+
+.button-outline-dark {
+  @include btn;
+  border: 2px solid $color-primary;
+  background: transparent;
+  color: $color-primary;
+
+  &:hover {
+    background-color: $color-primary;
+    color: $color-light;
+  }
+}

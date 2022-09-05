@@ -1,0 +1,20 @@
+.hero {
+  position: relative;
+  z-index: 1;
+  padding: 18rem 2rem;
+
+  @media screen and (max-width: 768px) {
+    padding: 15rem 2rem;
+  }
+
+  .text {
+    max-width: 70rem;
+    margin: 3.3rem auto;
+    position: relative;
+
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+}

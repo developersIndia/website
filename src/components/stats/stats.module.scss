@@ -1,0 +1,63 @@
+.stats {
+  padding: 10rem 20px;
+  background-color: #f8f3fd;
+
+  h2 {
+    text-align: left;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    @media screen and (max-width: 768px) {
+      flex-direction: column-reverse;
+    }
+
+    .col {
+      width: 50%;
+
+      @media screen and (max-width: 768px) {
+        width: 100%;
+      }
+    }
+
+    .col2 {
+      padding: 3rem 3rem 0;
+
+      @media screen and (max-width: 768px) {
+        padding-right: 0rem;
+        margin-bottom: 4rem;
+      }
+
+      .cards {
+        display: flex;
+        flex-wrap: wrap;
+        .card {
+          margin-top: 2rem;
+          width: 50%;
+          .number {
+            font-size: 5rem;
+            font-weight: 700;
+            color: #ff7722;
+          }
+          .description {
+            margin-top: 0.5rem;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+
+    .col1 {
+      text-align: center;
+      padding-top: 1rem;
+      .imageContainer {
+        max-width: 400px;
+        margin: auto;
+      }
+      .image {
+        border-radius: 3rem;
+      }
+    }
+  }
+}

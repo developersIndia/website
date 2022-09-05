@@ -1,51 +1,30 @@
-import { Button, Link, Stack } from "@chakra-ui/react";
+import Link from "next/link";
+
+import styles from "./social-buttons.module.scss";
 import { FaDiscord, FaGithub, FaReddit } from "react-icons/fa";
 
 function SocialButtons() {
   return (
-    <Stack direction="row" spacing={4}>
-      <Button
-        leftIcon={<FaDiscord />}
-        size={{ base: "md", md: "lg" }}
-        variant="solid"
-        bgColor="gray.300"
-        color="#5865F2"
-        borderRadius={90}
-        boxShadow="lg"
-      >
-        <Link href="https://discord.gg/G4XDD7MpfE" isExternal>
-          Discord
-        </Link>
-      </Button>
+    <div className={`${styles.socialbuttons} container-lg`}>
+      <Link href="https://discord.gg/G4XDD7MpfE">
+        <a className="button-outline-dark" target="_blank">
+          <FaDiscord />
+          &nbsp; Discord
+        </a>
+      </Link>
 
-      <Button
-        leftIcon={<FaReddit />}
-        size={{ base: "md", md: "lg" }}
-        variant="solid"
-        bgColor="gray.300"
-        color="#FF4500"
-        borderRadius={90}
-        boxShadow="lg"
-      >
-        <Link href="https://www.reddit.com/r/developersIndia" isExternal>
-          Reddit
-        </Link>
-      </Button>
+      <Link href="https://www.reddit.com/r/developersIndia">
+        <a className="button-outline-dark" target="_blank">
+          <FaReddit /> &nbsp; Reddit
+        </a>
+      </Link>
 
-      <Button
-        leftIcon={<FaGithub />}
-        size={{ base: "md", md: "lg" }}
-        variant="solid"
-        bgColor="gray.300"
-        color="#181717"
-        borderRadius={90}
-        boxShadow="lg"
-      >
-        <Link href="https://github.com/developersIndia" isExternal>
-          GitHub
-        </Link>
-      </Button>
-    </Stack>
+      <Link href="https://www.reddit.com/r/developersIndia">
+        <a className="button-outline-dark" target="_blank">
+          <FaGithub /> &nbsp; Github
+        </a>
+      </Link>
+    </div>
   );
 }
 

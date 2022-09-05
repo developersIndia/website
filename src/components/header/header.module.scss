@@ -1,0 +1,35 @@
+.header {
+  position: relative;
+  background: rgba(black, 0.01);
+
+  background: linear-gradient(
+      69.16deg,
+      rgba(235, 158, 199, 0.2) 0.89%,
+      rgba(255, 255, 255, 0) 30.42%
+    ),
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.94) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(101.13deg, #9ea2f1 -2%, #fe7ca5 96.04%);
+
+  .patterntop {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30vw;
+    max-width: 46rem;
+    min-width: 15rem;
+    z-index: 0;
+  }
+
+  .patternbottom {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 30vw;
+    max-width: 46rem;
+    min-width: 15rem;
+  }
+}

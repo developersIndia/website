@@ -1,7 +1,6 @@
 import Image from "next/image";
 
 import styles from "./profile-card.module.scss";
-import { Avatar, Stack, Text } from "@chakra-ui/react";
 
 type ProfileCardProps = {
   name: string;

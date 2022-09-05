@@ -1,0 +1,113 @@
+.mission {
+  padding: 10rem 2rem;
+
+  h2 {
+    text-align: left;
+  }
+  .text {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .row {
+    margin-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    .col {
+      width: 50%;
+
+      @media screen and (max-width: 768px) {
+        width: 100%;
+      }
+    }
+
+    .col1 {
+      padding-right: 3rem;
+      @media screen and (max-width: 768px) {
+        padding-right: 0rem;
+      }
+    }
+
+    .col2 {
+      text-align: center;
+      padding-top: 1rem;
+      .imageContainer {
+        max-width: 400px;
+        margin: auto;
+      }
+      .image {
+        border-radius: 3rem;
+      }
+    }
+  }
+
+  .card {
+    position: relative;
+    padding-left: 5.5rem;
+    margin-bottom: 4rem;
+    margin-top: 1rem;
+
+    .icon {
+      position: absolute;
+      left: 1.2rem;
+      top: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #7f56d9;
+      svg {
+        width: 2rem;
+        z-index: 2;
+      }
+
+      &::before {
+        content: "";
+        display: block;
+        width: 4.2rem;
+        height: 4.2rem;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        border-radius: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #f8f3fd;
+        z-index: 0;
+      }
+
+      &::after {
+        content: "";
+        display: block;
+        width: 3rem;
+        height: 3rem;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        border-radius: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #f4ebff;
+        z-index: 1;
+      }
+    }
+    .heading {
+      font-weight: bold;
+      color: #2a3268;
+    }
+
+    .link {
+      color: #7f56d9;
+      font-weight: bold;
+      text-decoration: none;
+      font-size: 1.4rem;
+      display: flex;
+      align-items: center;
+
+      &:hover svg {
+        transform: translateX(0.5rem);
+      }
+      svg {
+        font-size: 1.8rem;
+        transition: 0.1s;
+      }
+    }
+  }
+}

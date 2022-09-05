@@ -1,0 +1,24 @@
+.navbar {
+  padding: 2rem 2rem;
+  display: flex;
+  align-items: center;
+  .logo {
+    border-radius: 50%;
+    display: block;
+  }
+
+  .links {
+    margin-left: 0px;
+  }
+
+  .link {
+    text-decoration: none;
+    margin-left: 4rem;
+    color: black;
+    font-weight: 600;
+    transition: 0.2s;
+    &:hover {
+      border-bottom: 2px solid black;
+    }
+  }
+}

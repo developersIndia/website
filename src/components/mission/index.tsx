@@ -1,5 +1,9 @@
-import { Box, Flex, Heading, Stack, Text } from "@chakra-ui/react";
+import Image from "next/image";
+import Link from "next/link";
+
+import styles from "./mission.module.scss";
 import {
+  BsArrowRight,
   BsCurrencyDollar,
   BsFillLightningChargeFill,
   BsGraphUp,
@@ -7,118 +11,100 @@ import {
 
 function MissionSection() {
   return (
-    <>
-      <Heading
-        as="h2"
-        color="#101828"
-        textAlign="center"
-        size="xl"
-        fontFamily="inter"
-        marginBottom={4}
-      >
-        Our Mission
-      </Heading>
+    <section className={styles.mission} id="mission">
+      <div className="container-xl">
+        <h2 className="heading-secondary">Our Mission</h2>
 
-      <Text
-        marginBottom={12}
-        paddingX={{ md: 32 }}
-        textAlign="center"
-        fontSize={{ base: "md", md: "xl" }}
-        fontFamily="inter"
-        color="#667085"
-      >
-        At our core, we value a lot of things. Our main motive is to become
-        India&apos;s largest community where people collaborate and exchange
-        knowledge.
-      </Text>
+        <p className={styles.text}>
+          At our core, we value a lot of things. Our main motive is to become
+          India&apos;s largest community where people collaborate and exchange
+          knowledge.
+        </p>
 
-      <Stack spacing={12} paddingX={{ base: 2, md: 36 }}>
-        <Box>
-          <Flex align="baseline" justify="center">
-            <BsFillLightningChargeFill />
-            <Heading
-              fontWeight="medium"
-              fontFamily="inter"
-              marginBottom={4}
-              marginLeft={2}
-              size="md"
-              color="#101828"
-            >
-              Knowledge Transfer
-            </Heading>
-          </Flex>
+        <div className={styles.row}>
+          <div className={`${styles.col} ${styles.col1}`}>
+            <div className={styles.card}>
+              <div className={styles.icon}>
+                <BsFillLightningChargeFill />
+              </div>
 
-          <Text
-            paddingX={{ base: 6, md: 28 }}
-            marginLeft={{ md: 9 }}
-            textAlign="center"
-            fontFamily="inter"
-            color="#667085"
-          >
-            Be it Ruby on Rails or Python, with developers working on different
-            stacks coming together its always a win-win for the greater
-            community!
-          </Text>
-        </Box>
+              <div className={styles.content}>
+                <div className={styles.heading}>Knowledge Transfer</div>
+                <p className={styles.text}>
+                  Be it Ruby on Rails or Python, with developers working on
+                  different stacks coming together its always a win-win for the
+                  greater community!
+                </p>
+                <Link href="/">
+                  <a className={styles.link}>
+                    Learn More &nbsp;
+                    <BsArrowRight />
+                  </a>
+                </Link>
+              </div>
+            </div>
 
-        <Box>
-          <Flex justify="center" align="baseline">
-            <BsCurrencyDollar />
-            <Heading
-              marginBottom={4}
-              marginLeft={2}
-              fontWeight="medium"
-              fontFamily="inter"
-              size="md"
-              color="#101828"
-            >
-              Potential Job Opportunities
-            </Heading>
-          </Flex>
+            <div className={styles.card}>
+              <div className={styles.icon}>
+                <BsCurrencyDollar />
+              </div>
 
-          <Text
-            paddingX={{ base: 6, md: 28 }}
-            marginLeft={{ md: 9 }}
-            textAlign="center"
-            color="#667085"
-            fontFamily="inter"
-          >
-            Our community members come from a variety of backgrounds! Some work
-            in the big name MNCs, a few in the well-known FAANG companies & some
-            more in fast-growing startups! Hence, in our community, you&apos;ll
-            find ample opportunities to network & find job prospects.
-          </Text>
-        </Box>
+              <div className={styles.content}>
+                <div className={styles.heading}>
+                  Potential Job Opportunities
+                </div>
+                <p className={styles.text}>
+                  Our community members come from a variety of backgrounds! Some
+                  work in the big name MNCs, a few in the well-known FAANG
+                  companies & some more in fast-growing startups! Hence, in our
+                  community, you'll find ample opportunities to network & find
+                  job prospects.
+                </p>
+                <Link href="/">
+                  <a className={styles.link}>
+                    Learn More &nbsp;
+                    <BsArrowRight />
+                  </a>
+                </Link>
+              </div>
+            </div>
 
-        <Box>
-          <Flex justify="center" align="baseline">
-            <BsGraphUp />
-            <Heading
-              fontWeight="medium"
-              fontFamily="inter"
-              marginBottom={4}
-              marginLeft={2}
-              size="md"
-              color="#101828"
-            >
-              Growth Prospects
-            </Heading>
-          </Flex>
+            <div className={styles.card}>
+              <div className={styles.icon}>
+                <BsGraphUp />
+              </div>
 
-          <Text
-            paddingX={{ base: 6, md: 28 }}
-            marginLeft={{ md: 9 }}
-            textAlign="center"
-            color="#667085"
-            fontFamily="inter"
-          >
-            We host coding live streams, talks from experienced industry experts
-            & such. So, by being part of the community expect to gain some
-            knowledge on a variety of technologies.
-          </Text>
-        </Box>
-      </Stack>
-    </>
+              <div className={styles.content}>
+                <div className={styles.heading}>Growth Prospects</div>
+                <p className={styles.text}>
+                  We host coding live streams, talks from experienced industry
+                  experts & such. So, by being part of the community expect to
+                  gain some knowledge on a variety of technologies.
+                </p>
+                <Link href="/">
+                  <a className={styles.link}>
+                    Learn More &nbsp;
+                    <BsArrowRight />
+                  </a>
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className={`${styles.col} ${styles.col2}`}>
+            <div className={styles.imageContainer}>
+              <Image
+                width="400px"
+                height="400px"
+                layout="responsive"
+                alt="Mission Image"
+                className={styles.image}
+                src="https://picsum.photos/400/400?random=2"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   );
 }
 

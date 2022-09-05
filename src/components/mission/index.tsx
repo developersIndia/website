@@ -57,8 +57,8 @@ function MissionSection() {
                   Our community members come from a variety of backgrounds! Some
                   work in the big name MNCs, a few in the well-known FAANG
                   companies & some more in fast-growing startups! Hence, in our
-                  community, you'll find ample opportunities to network & find
-                  job prospects.
+                  community, you&apos;ll find ample opportunities to network &
+                  find job prospects.
                 </p>
                 <Link href="/">
                   <a className={styles.link}>

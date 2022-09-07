@@ -62,5 +62,4 @@ function Stats(props: Props) {
   );
 }
 
-
 export default Stats;

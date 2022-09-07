@@ -1,0 +1,35 @@
+.team {
+  padding: 10rem 2rem;
+
+  .headingsm {
+    color: green;
+    text-align: center;
+    margin-bottom: 1.2rem;
+  }
+  .text {
+    text-align: center;
+    color: gray;
+  }
+
+  .row {
+    margin-top: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    // justify-content: center;
+    .col {
+      width: 100%;
+
+      @media screen and (min-width: 768px) {
+        width: 50%;
+      }
+
+      @media screen and (min-width: 1200px) {
+        width: 33.3%;
+      }
+
+      @media screen and (min-width: 1400px) {
+        width: 25%;
+      }
+    }
+  }
+}

@@ -11,6 +11,7 @@ type ModeratorTypes = {
   name:
     | "Somraj Saha"
     | "Bhupesh Varshney"
+    | "Himanshu Varshney"
     | "Sidharth Gehlot"
     | "Yash Sharan"
     | "Bhupesh Pradhan"
@@ -60,24 +61,46 @@ export const moderators: ModeratorTypes[] = [
     },
   },
   {
-    name: "Placeholder John",
+    name: "Himanshu Varshney",
     role: "Discord Moderator",
-    img: "https://picsum.photos/200/300?random=1",
+    img: "https://avatars.githubusercontent.com/u/45286342?s=400&u=388cf03d08c6330e556c6fba0a0f573b020fa319&v=4",
     tagline:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis pharetra dui. Donec imperdiet velit.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis pharetra dui.",
   },
   {
     name: "Placeholder John",
     role: "Discord Moderator",
     img: "https://picsum.photos/200/300?random=2",
     tagline:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis pharetra dui. Donec imperdiet velit.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis pharetra dui.",
   },
   {
     name: "Placeholder John",
     role: "Discord Moderator",
     img: "https://picsum.photos/200/300?random=3",
     tagline:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis pharetra dui. Donec imperdiet velit.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis pharetra dui.",
   },
+  {
+    name: "Placeholder John",
+    role: "Discord Moderator",
+    img: "https://picsum.photos/200/300?random=3",
+    tagline:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis pharetra dui.",
+  },
+  {
+    name: "Placeholder John",
+    role: "Discord Moderator",
+    img: "https://picsum.photos/200/300?random=3",
+    tagline:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis pharetra dui.",
+  },
+];
+
+export const navLinks = [
+  { title: "Our Mission", link: "#mission" },
+  { title: "Team", link: "#team" },
+  // { title: "Reddit", link: "https://www.reddit.com/r/developersIndia" },
+  // { title: "Discord", link: "https://discord.gg/G4XDD7MpfE" },
+  // { title: "Github", link: "https://www.reddit.com/r/developersIndia" },
 ];

@@ -1,27 +1,60 @@
+import axios, { AxiosError } from "axios";
 import CtaSection from "../components/cta";
 import FooterSection from "../components/footer";
 import Header from "../components/header";
 import MissionSection from "../components/mission";
-import ModProfiles from "../components/mod-profiles";
-import { Container, Divider } from "@chakra-ui/react";
+import Stats from "../components/stats/index";
+import Team from "../components/team";
+import { StatsData } from "../utils/interfaces";
 
-function IndexPage() {
+
+interface Props {
+  statsData: StatsData
+}
+
+function IndexPage(props: Props) {
+  const { statsData } = props;
   return (
-    <Container
-      maxWidth={{ base: "full", md: "container.lg" }}
-      marginTop={{ base: 12, md: 28 }}
-      marginBottom={{ base: 8, md: 12 }}
-    >
+    <main>
       <Header />
-      <Divider marginY={20} />
       <MissionSection />
-      <Divider marginY={20} />
-      <ModProfiles />
-      <Divider marginY={20} />
+      <Stats data={statsData} />
+      <Team />
       <CtaSection />
       <FooterSection />
-    </Container>
+    </main>
   );
+}
+
+export async function getServerSideProps(context: any) {
+  const { res } = context;
+  res.setHeader(
+    'Cache-Control',
+    'public, s-maxage=10, stale-while-revalidate=59'
+  )
+
+  let response;
+  let data: StatsData;
+
+  try {
+    response = await axios("https://developersindia.github.io/metrics/data");
+    const { totalMembers, yesterdayUniquePageViews } = response.data;
+    data = {
+      dailySubredditViews: yesterdayUniquePageViews,
+      subredditMembers: totalMembers,
+      discordServerMembers: 5000,
+    }
+  } catch (error) {
+    data = {
+      dailySubredditViews: 19000,
+      subredditMembers: 66600,
+      discordServerMembers: 5000,
+    }
+  }
+
+  return {
+    props: { statsData: data },
+  }
 }
 
 export default IndexPage;

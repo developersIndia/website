@@ -110,7 +110,7 @@ function BecomeVolunteerPage() {
               </Stat>
               <Stat textAlign="center">
                 <StatNumber color="#101828" fontFamily="inter">
-                  100K+
+                  1M+
                 </StatNumber>
                 <StatLabel color="#667085" fontFamily="inter">
                   Community Members

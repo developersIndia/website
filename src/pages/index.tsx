@@ -19,7 +19,7 @@ function IndexPage() {
         </title>
         <meta
           name="description"
-          content="Join India's largest and most active developer community with 100K+ members. Connect, learn, and grow with fellow developers. Find jobs, share knowledge, and participate in events."
+          content="Join India's largest and most active developer community with 1M+ members. Connect, learn, and grow with fellow developers. Find jobs, share knowledge, and participate in events."
         />
         <meta name="author" content="developersIndia Community" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -34,7 +34,7 @@ function IndexPage() {
         />
         <meta
           property="og:description"
-          content="Join India's largest and most active developer community with 100K+ members. Connect, learn, and grow with fellow developers. Find jobs, share knowledge, and participate in events."
+          content="Join India's largest and most active developer community with 1M+ members. Connect, learn, and grow with fellow developers. Find jobs, share knowledge, and participate in events."
         />
         <meta
           property="og:image"

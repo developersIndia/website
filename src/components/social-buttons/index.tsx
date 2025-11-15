@@ -32,7 +32,7 @@ function SocialButtons() {
         size={{ base: "sm", md: "lg" }}
         variant="solid"
         bgColor="gray.300"
-        color="#737480"
+        color="#000000ff"
         borderRadius={90}
         boxShadow="lg"
         width={{ base: "100%", md: "auto" }}
@@ -40,7 +40,7 @@ function SocialButtons() {
         minWidth={{ md: "220px" }}
       >
         <Link href="https://wiki.developersindia.in/" isExternal>
-          Community Guides & FAQs
+          Community Wiki
         </Link>
       </Button>
 

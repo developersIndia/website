@@ -240,8 +240,8 @@ function CommunityVolunteerTasksPage() {
             </ListItem>
             <ListItem>
               <Text fontFamily="inter" color="#667085">
-                • Take charge of answering on behalf of the developersIndia mod team
-                if someone mentions/tags you in a comment/post.
+                • Take charge of answering on behalf of the developersIndia mod
+                team if someone mentions/tags you in a comment/post.
               </Text>
             </ListItem>
             <ListItem>

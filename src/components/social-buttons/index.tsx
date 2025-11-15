@@ -56,7 +56,10 @@ function SocialButtons() {
         maxWidth={{ base: "280px", md: "none" }}
         minWidth={{ md: "140px" }}
       >
-        <Link href="https://discord.gg/G4XDD7MpfE" isExternal>
+        <Link
+          href="https://discord.com/servers/developersindia-669880381649977354"
+          isExternal
+        >
           Discord
         </Link>
       </Button>

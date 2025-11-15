@@ -6,14 +6,11 @@ function FooterSection() {
       <Stack
         marginTop={32}
         direction={{ base: "column", md: "row" }}
-        justify="space-between"
+        justify="center"
         align="center"
       >
         <Text as="small" color="#98A2B3">
-          &copy; 2022-{new Date().getFullYear()} developersIndia
-        </Text>
-        <Text as="small" color="#98A2B3">
-          Made in India with{" "}
+          Made in 🇮🇳 with{" "}
           <span>
             <a
               style={{ textDecoration: "underline" }}

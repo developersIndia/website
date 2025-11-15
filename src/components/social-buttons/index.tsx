@@ -3,15 +3,24 @@ import { FaBook, FaDiscord, FaReddit } from "react-icons/fa";
 
 function SocialButtons() {
   return (
-    <Stack direction="row" spacing={4}>
+    <Stack
+      direction={{ base: "column", md: "row" }}
+      spacing={{ base: 3, md: 4 }}
+      align="center"
+      justify="center"
+      width="100%"
+    >
       <Button
         leftIcon={<FaReddit />}
-        size={{ base: "md", md: "lg" }}
+        size={{ base: "sm", md: "lg" }}
         variant="solid"
         bgColor="gray.300"
         color="#FF4500"
         borderRadius={90}
         boxShadow="lg"
+        width={{ base: "100%", md: "auto" }}
+        maxWidth={{ base: "280px", md: "none" }}
+        minWidth={{ md: "200px" }}
       >
         <Link href="https://www.reddit.com/r/developersIndia" isExternal>
           Reddit Forum
@@ -20,12 +29,15 @@ function SocialButtons() {
 
       <Button
         leftIcon={<FaBook />}
-        size={{ base: "md", md: "lg" }}
+        size={{ base: "sm", md: "lg" }}
         variant="solid"
         bgColor="gray.300"
         color="#737480"
         borderRadius={90}
         boxShadow="lg"
+        width={{ base: "100%", md: "auto" }}
+        maxWidth={{ base: "280px", md: "none" }}
+        minWidth={{ md: "220px" }}
       >
         <Link href="https://wiki.developersindia.in/" isExternal>
           Community Guides & FAQs
@@ -34,12 +46,15 @@ function SocialButtons() {
 
       <Button
         leftIcon={<FaDiscord />}
-        size={{ base: "md", md: "lg" }}
+        size={{ base: "sm", md: "lg" }}
         variant="solid"
         bgColor="gray.300"
         color="#5865F2"
         borderRadius={90}
         boxShadow="lg"
+        width={{ base: "100%", md: "auto" }}
+        maxWidth={{ base: "280px", md: "none" }}
+        minWidth={{ md: "140px" }}
       >
         <Link href="https://discord.gg/G4XDD7MpfE" isExternal>
           Discord

@@ -82,26 +82,17 @@ function RedditCarousel() {
   const currentPost = posts[currentIndex];
 
   return (
-    <VStack spacing={6}>
+    <VStack spacing={6} width="100%" paddingX={{ base: 4, md: 0 }}>
       <Heading
         fontFamily="inter"
         fontWeight="bold"
-        size="xl"
+        size={{ base: "lg", md: "xl" }}
         textAlign="center"
         color="#101828"
+        paddingX={{ base: 4, md: 0 }}
       >
-        Hot from the Community 🔥
+        Trending discussions on the forum
       </Heading>
-
-      <Text
-        textAlign="center"
-        fontSize="lg"
-        color="#667085"
-        fontFamily="inter"
-        mb={4}
-      >
-        Latest trending discussions on the forum
-      </Text>
 
       <Box
         position="relative"
@@ -110,9 +101,10 @@ function RedditCarousel() {
         bg="white"
         borderRadius="lg"
         boxShadow="lg"
-        p={6}
+        p={{ base: 4, md: 6 }}
         border="1px solid"
         borderColor="gray.200"
+        marginX={{ base: 4, md: 0 }}
       >
         <VStack spacing={4} align="stretch">
           <Badge
@@ -153,7 +145,7 @@ function RedditCarousel() {
           )}
 
           <Heading
-            size="md"
+            size={{ base: "sm", md: "md" }}
             fontFamily="inter"
             color="#101828"
             lineHeight="1.4"
@@ -164,7 +156,7 @@ function RedditCarousel() {
 
           <Text
             color="#667085"
-            fontSize="sm"
+            fontSize={{ base: "xs", md: "sm" }}
             fontFamily="inter"
             noOfLines={3}
             dangerouslySetInnerHTML={{
@@ -174,13 +166,22 @@ function RedditCarousel() {
             }}
           />
 
-          <HStack justify="space-between" align="center">
+          <HStack
+            justify="space-between"
+            align="center"
+            flexWrap={{ base: "wrap", md: "nowrap" }}
+            gap={2}
+          >
             <VStack align="start" spacing={1}>
               <Text fontSize="xs" color="gray.600">
                 by {currentPost.author}
               </Text>
               <Text fontSize="xs" color="gray.500">
-                {new Date(currentPost.pubDate).toLocaleDateString()}
+                {new Date(currentPost.pubDate).toLocaleDateString("en-GB", {
+                  day: "numeric",
+                  month: "short",
+                  year: "numeric",
+                })}
               </Text>
             </VStack>
 
@@ -189,11 +190,12 @@ function RedditCarousel() {
               isExternal
               color="blue.500"
               fontWeight="medium"
-              fontSize="sm"
+              fontSize={{ base: "xs", md: "sm" }}
               display="flex"
               alignItems="center"
               gap={2}
               _hover={{ color: "blue.600" }}
+              flexShrink={0}
             >
               Read More <FaExternalLinkAlt size={12} />
             </Link>

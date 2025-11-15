@@ -1,5 +1,5 @@
 import SocialButtons from "../social-buttons";
-import { Center, Heading, Text } from "@chakra-ui/react";
+import { Box, Heading, Text } from "@chakra-ui/react";
 import "@fontsource/inter";
 
 function Header() {
@@ -24,9 +24,9 @@ function Header() {
         software developers & tech professionals!
       </Text>
 
-      <Center>
+      <Box display="flex" justifyContent="center" alignItems="center">
         <SocialButtons />
-      </Center>
+      </Box>
     </>
   );
 }

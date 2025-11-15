@@ -50,6 +50,7 @@ function BecomeVolunteerPage() {
         maxWidth={{ base: "full", md: "container.lg" }}
         marginTop={{ base: 12, md: 28 }}
         marginBottom={{ base: 8, md: 12 }}
+        paddingX={{ base: 4, md: 8 }}
       >
         {/* Header */}
         <Heading
@@ -295,12 +296,13 @@ function BecomeVolunteerPage() {
             as="iframe"
             src="https://docs.google.com/forms/d/e/1FAIpQLSeOs58fg2VSeEqEmgiKtm6526-1RovZ3IlRIqHnIo_DSsZJLQ/viewform?embedded=true"
             width="100%"
-            height="600px"
+            height={{ base: "500px", md: "600px" }}
             frameBorder="0"
             marginTop={4}
             borderRadius="md"
             border="1px solid"
             borderColor="gray.200"
+            overflow="hidden"
           />
         </Box>
 

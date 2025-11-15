@@ -9,7 +9,7 @@ function FooterSection() {
         justify="center"
         align="center"
       >
-        <Text as="small" color="#98A2B3">
+        <Text as="small" color="#98A2B3" fontSize="15px">
           Made in 🇮🇳 with{" "}
           <span>
             <a

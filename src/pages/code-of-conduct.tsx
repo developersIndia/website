@@ -49,9 +49,10 @@ function CodeOfConductPage() {
         maxWidth={{ base: "full", md: "container.lg" }}
         marginTop={{ base: 12, md: 28 }}
         marginBottom={{ base: 8, md: 12 }}
+        paddingX={{ base: 4, md: 8 }}
       >
         {/* Header */}
-        <VStack spacing={6} marginBottom={12}>
+        <VStack spacing={6} marginBottom={12} align="center">
           <Heading
             size={{ base: "xl", md: "2xl" }}
             textAlign="center"

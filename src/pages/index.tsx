@@ -14,11 +14,11 @@ function IndexPage() {
     >
       <Header />
       <Divider marginY={20} />
-      <MissionSection />
-      <Divider marginY={20} />
-      <ModProfiles />
-      <Divider marginY={20} />
-      <CtaSection />
+      {/* <MissionSection /> */}
+      {/* <Divider marginY={20} /> */}
+      {/* <ModProfiles /> */}
+      {/* <Divider marginY={20} /> */}
+      {/* <CtaSection /> */}
       <FooterSection />
     </Container>
   );

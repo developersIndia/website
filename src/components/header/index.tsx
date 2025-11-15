@@ -21,8 +21,7 @@ function Header() {
         fontFamily="inter"
       >
         We&apos;re India&apos;s biggest & ever-fastest growing community of
-        software developers & tech professionals! Join us & hang around with us
-        on Discord, Reddit and/or on GitHub.
+        software developers & tech professionals!
       </Text>
 
       <Center>

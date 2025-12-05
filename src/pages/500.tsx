@@ -15,7 +15,12 @@ function ServerErrorPage() {
       <Box>
         <Image src="/500.svg" width={500} height={350} alt="404" />
       </Box>
-      <Text fontSize="3xl" fontWeight="semibold" color="gray.500" marginBottom="6">
+      <Text
+        fontSize="3xl"
+        fontWeight="semibold"
+        color="gray.500"
+        marginBottom="6"
+      >
         Server Error!
       </Text>
       <Button leftIcon={<FaHome />} variant="solid" colorScheme="blue">

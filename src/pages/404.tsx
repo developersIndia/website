@@ -15,7 +15,12 @@ function NotFoundPage() {
       <Box>
         <Image src="/404.svg" width={500} height={350} alt="404" />
       </Box>
-      <Text fontSize="3xl" fontWeight="semibold" color="gray.500" marginBottom="6">
+      <Text
+        fontSize="3xl"
+        fontWeight="semibold"
+        color="gray.500"
+        marginBottom="6"
+      >
         Page not found!
       </Text>
       <Button leftIcon={<FaHome />} variant="solid" colorScheme="blue">
